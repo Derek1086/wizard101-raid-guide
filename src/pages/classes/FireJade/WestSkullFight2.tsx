@@ -171,7 +171,7 @@ const WestSkullFight2 = () => {
           sx={{ width: "20%", height: "70px" }}
           color="secondary"
           size="large"
-          onClick={() => navigate("/firejade")}
+          onClick={() => navigate("/firejade/yetaxa")}
           style={{
             color: "white",
             backgroundColor: "#272727",
