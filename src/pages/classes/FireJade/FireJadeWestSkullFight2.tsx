@@ -7,7 +7,7 @@ import CustomImage from "../../../components/CustomImage";
 import WestSkull2 from "../../../components/strats/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
-const WestSkullFight2 = () => {
+const FireJadeWestSkullFight2 = () => {
   const navigate = useNavigate();
 
   return (
@@ -170,4 +170,4 @@ const WestSkullFight2 = () => {
   );
 };
 
-export default WestSkullFight2;
+export default FireJadeWestSkullFight2;

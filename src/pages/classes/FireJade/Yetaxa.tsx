@@ -15,7 +15,7 @@ import YetaxaStrat2 from "../../../components/strats/Yetaxa/Strat2";
 import YetaxaStrat3 from "../../../components/strats/Yetaxa/Strat3";
 import YetaxaStrat4 from "../../../components/strats/Yetaxa/Strat4";
 
-const YetaxaFight = () => {
+const FireJadeYetaxa = () => {
   const navigate = useNavigate();
   const [strat, setStrat] = useState("");
 
@@ -316,4 +316,4 @@ const YetaxaFight = () => {
   );
 };
 
-export default YetaxaFight;
+export default FireJadeYetaxa;
