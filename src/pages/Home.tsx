@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import Class from "../components/Class";
 import Header from "../components/Header";
+import BuffTable from "../components/BuffTable";
+import StatTable from "../components/StatTable";
 
 const Home = () => {
   return (
@@ -77,6 +79,56 @@ const Home = () => {
           <Class imgSrc="/Storm-School.gif" title="Support/Puller" />
         </Link>
       </Box>
+      <div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            alignContent: "center",
+            marginTop: "10px",
+            marginBottom: "20px",
+          }}
+        >
+          <img src="/roshambo.png" alt="" height={"200px"} />
+        </div>
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignContent: "center",
+            marginBottom: "50px",
+          }}
+        >
+          <div
+            style={{
+              width: "50%",
+            }}
+          >
+            <BuffTable />
+          </div>
+        </div>
+
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignContent: "center",
+            marginBottom: "50px",
+          }}
+        >
+          <div
+            style={{
+              width: "80%",
+            }}
+          >
+            <StatTable />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

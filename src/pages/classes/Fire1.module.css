@@ -1,0 +1,18 @@
+/* Fire1.module.css */
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.hoverText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.imageContainer:hover .hoverText {
+  opacity: 1;
+}
