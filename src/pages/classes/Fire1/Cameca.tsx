@@ -1,7 +1,6 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
+import Navigation from "../../../components/Navigation";
 import { useState } from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -16,7 +15,6 @@ import CamecaStrat3 from "../../../components/strats/Cameca/Strat3";
 import CamecaStrat4 from "../../../components/strats/Cameca/Strat4";
 
 const Fire1Cameca = () => {
-  const navigate = useNavigate();
   const [strat, setStrat] = useState("");
 
   const handleChange = (event: SelectChangeEvent) => {
@@ -276,45 +274,7 @@ const Fire1Cameca = () => {
           </div>
         </>
       )}
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          gap: "20px",
-        }}
-      >
-        <Button
-          variant="contained"
-          sx={{ width: "20%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/fire1/yetaxa")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Back
-        </Button>
-        <Button
-          variant="contained"
-          sx={{ width: "20%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/fire1/hunhau")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Next
-        </Button>
-      </div>
+      <Navigation prev="/fire1/yetaxa" next="/fire1/hunhau" />
     </>
   );
 };

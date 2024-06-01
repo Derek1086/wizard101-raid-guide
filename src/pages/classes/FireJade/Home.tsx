@@ -1,14 +1,11 @@
 import Header from "../../../components/Header";
-import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
-import { useNavigate } from "react-router-dom";
+import Navigation from "../../../components/Navigation";
 
 import DeckSetup from "../../../components/DeckSetup";
 import RecStats from "../../../components/RecStats";
 
 const FireJade = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <Header />
@@ -26,45 +23,7 @@ const FireJade = () => {
         title="Fire Jade"
         stats="High Universal Resist, High Health, 100% Pip Chance, Fire Mastery, 25% Fire Accuracy, High Fire/Ice Resist"
       />
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          gap: "20px",
-        }}
-      >
-        <Button
-          variant="contained"
-          sx={{ width: "30%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Home
-        </Button>
-        <Button
-          variant="contained"
-          sx={{ width: "30%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/firejade/fishing")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Start Raid
-        </Button>
-      </div>
+      <Navigation prev="/" next="/firejade/fishing" />
       <Typography
         variant="h5"
         component="div"

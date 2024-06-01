@@ -1,15 +1,12 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
+import Navigation from "../../../components/Navigation";
 
 import CustomImage from "../../../components/CustomImage";
 import WestSkull2 from "../../../components/strats/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
 const Fire1WestSkullFight2 = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <Header />
@@ -92,45 +89,7 @@ const Fire1WestSkullFight2 = () => {
         After fight, go to pond and work with fire jade/fire 2 to collect rest
         of the death fish if needed
       </Typography>
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          gap: "20px",
-        }}
-      >
-        <Button
-          variant="contained"
-          sx={{ width: "20%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/fire1/drums")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Back
-        </Button>
-        <Button
-          variant="contained"
-          sx={{ width: "20%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/fire1/yetaxa")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Next
-        </Button>
-      </div>
+      <Navigation prev="/fire1/drums" next="/fire1/yetaxa" />
       <Typography
         variant="h5"
         component="div"

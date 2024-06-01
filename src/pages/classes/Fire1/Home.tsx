@@ -1,13 +1,10 @@
 import Header from "../../../components/Header";
-import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
+import Navigation from "../../../components/Navigation";
 
 import DeckSetup from "../../../components/DeckSetup";
 import RecStats from "../../../components/RecStats";
 
 const Fire1 = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <Header />
@@ -25,45 +22,7 @@ const Fire1 = () => {
         title="Fire 1"
         stats="195% Damage, 68% Pierce, 30% Accuracy, 100% Pip Chance, "
       />
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          gap: "20px",
-        }}
-      >
-        <Button
-          variant="contained"
-          sx={{ width: "30%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Home
-        </Button>
-        <Button
-          variant="contained"
-          sx={{ width: "30%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/fire1/drums")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Start Raid
-        </Button>
-      </div>
+      <Navigation prev="/" next="/fire1/drums" />
     </>
   );
 };

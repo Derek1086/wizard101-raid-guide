@@ -1,7 +1,6 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import { useNavigate } from "react-router-dom";
+import Navigation from "../../../components/Navigation";
 import { useState } from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -16,7 +15,6 @@ import YetaxaStrat3 from "../../../components/strats/Yetaxa/Strat3";
 import YetaxaStrat4 from "../../../components/strats/Yetaxa/Strat4";
 
 const FireJadeYetaxa = () => {
-  const navigate = useNavigate();
   const [strat, setStrat] = useState("");
 
   const handleChange = (event: SelectChangeEvent) => {
@@ -273,45 +271,10 @@ const FireJadeYetaxa = () => {
           </div>
         </>
       )}
-      <div
-        style={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          gap: "20px",
-        }}
-      >
-        <Button
-          variant="contained"
-          sx={{ width: "20%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/firejade/westskullfight2")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Back
-        </Button>
-        <Button
-          variant="contained"
-          sx={{ width: "20%", height: "70px" }}
-          color="secondary"
-          size="large"
-          onClick={() => navigate("/firejade/southpulling")}
-          style={{
-            color: "white",
-            backgroundColor: "#272727",
-            fontSize: "calc(0.8em + 0.8vmin)",
-          }}
-        >
-          Next
-        </Button>
-      </div>
+      <Navigation
+        prev="/firejade/westskullfight2"
+        next="/firejade/southpulling"
+      />
     </>
   );
 };
