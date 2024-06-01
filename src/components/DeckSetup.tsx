@@ -8,6 +8,7 @@ type ClassProps = {
   main: string;
   item: string;
   side: string;
+  cantrip: string;
 };
 
 const DeckSetup: React.FC<ClassProps> = ({
@@ -18,6 +19,7 @@ const DeckSetup: React.FC<ClassProps> = ({
   main,
   item,
   side,
+  cantrip,
 }) => {
   return (
     <>
@@ -77,6 +79,7 @@ const DeckSetup: React.FC<ClassProps> = ({
           <Typography
             variant="body1"
             component="div"
+            color="text.secondary"
             align="center"
             sx={{
               width: "100%",
@@ -120,6 +123,7 @@ const DeckSetup: React.FC<ClassProps> = ({
           <Typography
             variant="body1"
             component="div"
+            color="text.secondary"
             align="center"
             sx={{
               width: "100%",
@@ -163,6 +167,7 @@ const DeckSetup: React.FC<ClassProps> = ({
           <Typography
             variant="body1"
             component="div"
+            color="text.secondary"
             align="center"
             sx={{
               width: "100%",
@@ -172,6 +177,51 @@ const DeckSetup: React.FC<ClassProps> = ({
             }}
           >
             {side}
+          </Typography>
+        </div>
+      </div>
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+          gap: "20px",
+        }}
+      >
+        <div
+          style={{
+            width: "33.3%",
+          }}
+        >
+          <Typography
+            variant="h6"
+            component="div"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              marginTop: "10px",
+            }}
+          >
+            {cantrip}
           </Typography>
         </div>
       </div>

@@ -4,18 +4,20 @@ import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
 
-import FireJade from "./pages/classes/FireJade";
-import Fire1 from "./pages/classes/Fire1";
-import Fire2 from "./pages/classes/Fire2";
-import MythJade from "./pages/classes/MythJade";
-import Myth1 from "./pages/classes/Myth1";
-import Myth2 from "./pages/classes/Myth2";
-import StormJade from "./pages/classes/StormJade";
-import Storm1 from "./pages/classes/Storm1";
-import Storm2 from "./pages/classes/Storm2";
-import Storm3 from "./pages/classes/Storm3";
-import Storm4 from "./pages/classes/Storm4";
-import SupportPuller from "./pages/classes/SupportPuller";
+import FireJade from "./pages/classes/FireJade/FireJade";
+import FishingFireIce from "./pages/classes/FireJade/Fishing";
+import WestSkullFight2 from "./pages/classes/FireJade/WestSkullFight2";
+import Fire1 from "./pages/classes/Fire1/Fire1";
+import Fire2 from "./pages/classes/Fire2/Fire2";
+import MythJade from "./pages/classes/MythJade/MythJade";
+import Myth1 from "./pages/classes/Myth1/Myth1";
+import Myth2 from "./pages/classes/Myth2/Myth2";
+import StormJade from "./pages/classes/StormJade/StormJade";
+import Storm1 from "./pages/classes/Storm1/Storm1";
+import Storm2 from "./pages/classes/Storm2/Storm2";
+import Storm3 from "./pages/classes/Storm3/Storm3";
+import Storm4 from "./pages/classes/Storm4/Storm4";
+import SupportPuller from "./pages/classes/SupportPuller/SupportPuller";
 
 const darkTheme = createTheme({
   palette: {
@@ -30,6 +32,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/firejade" element={<FireJade />} />
+        <Route path="/firejade/fishing" element={<FishingFireIce />} />
+        <Route path="/firejade/westskullfight" element={<WestSkullFight2 />} />
         <Route path="/fire1" element={<Fire1 />} />
         <Route path="/fire2" element={<Fire2 />} />
         <Route path="/mythjade" element={<MythJade />} />
