@@ -79,6 +79,14 @@ const Home = () => {
           <Class imgSrc="/Storm-School.gif" title="Support/Puller" />
         </Link>
       </Box>
+      <Typography
+        variant="h6"
+        component="div"
+        align="center"
+        sx={{ flexGrow: 1, marginTop: 2 }}
+      >
+        Roshambo
+      </Typography>
       <div>
         <div
           style={{
@@ -110,7 +118,14 @@ const Home = () => {
             <BuffTable />
           </div>
         </div>
-
+        <Typography
+          variant="h6"
+          component="div"
+          align="center"
+          sx={{ flexGrow: 1, marginTop: 2 }}
+        >
+          Stat Caps
+        </Typography>
         <div
           style={{
             width: "100%",
@@ -118,6 +133,7 @@ const Home = () => {
             justifyContent: "center",
             alignContent: "center",
             marginBottom: "50px",
+            marginTop: "20px",
           }}
         >
           <div

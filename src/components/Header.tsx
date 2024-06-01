@@ -11,7 +11,7 @@ const Header = () => {
         <Toolbar sx={{ justifyContent: "center", padding: "20px" }}>
           <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
             <Typography variant="h4" component="h1" align="center">
-              Crying Sky Raid
+              Crying Sky Raid Guide
             </Typography>
           </Link>
         </Toolbar>
