@@ -5,8 +5,8 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
 import FireJade from "./pages/classes/FireJade/Home";
-import FishingFireIce from "./pages/classes/FireJade/FishingFireIce";
-import FireJadeWestSkullFight2 from "./pages/classes/FireJade/FireJadeWestSkullFight2";
+import FishingFireIce from "./pages/classes/FireJade/Fishing";
+import FireJadeWestSkullFight2 from "./pages/classes/FireJade/WestSkullFight2";
 import FireJadeYetaxa from "./pages/classes/FireJade/Yetaxa";
 import SouthPulling from "./pages/classes/FireJade/SouthPulling";
 
