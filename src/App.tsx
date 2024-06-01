@@ -1,11 +1,21 @@
 import { ThemeProvider, createTheme } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import AppBar from "@mui/material/AppBar";
-import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Class from "./components/Class";
-import Header from "./components/Header";
+import { Route, Routes } from "react-router-dom";
+
+import Home from "./pages/Home";
+
+import FireJade from "./pages/classes/FireJade";
+import Fire1 from "./pages/classes/Fire1";
+import Fire2 from "./pages/classes/Fire2";
+import MythJade from "./pages/classes/MythJade";
+import Myth1 from "./pages/classes/Myth1";
+import Myth2 from "./pages/classes/Myth2";
+import StormJade from "./pages/classes/StormJade";
+import Storm1 from "./pages/classes/Storm1";
+import Storm2 from "./pages/classes/Storm2";
+import Storm3 from "./pages/classes/Storm3";
+import Storm4 from "./pages/classes/Storm4";
+import SupportPuller from "./pages/classes/SupportPuller";
 
 const darkTheme = createTheme({
   palette: {
@@ -17,39 +27,21 @@ function App() {
   return (
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
-      <Header />
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Choose your role
-      </Typography>
-      <Box
-        sx={{
-          width: "80%", // 75% width of the screen
-          margin: "0 auto",
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-          alignItems: "center",
-          marginTop: 2,
-        }}
-      >
-        <Class imgSrc="/Fire-School.gif" title="Fire Jade" />
-        <Class imgSrc="/Fire-School.gif" title="Fire 1" />
-        <Class imgSrc="/Fire-School.gif" title="Fire 2" />
-        <Class imgSrc="/Myth-School.gif" title="Myth Jade" />
-        <Class imgSrc="/Myth-School.gif" title="Myth 1" />
-        <Class imgSrc="/Myth-School.gif" title="Myth 2" />
-        <Class imgSrc="/Storm-School.gif" title="Storm Jade" />
-        <Class imgSrc="/Storm-School.gif" title="Storm 1" />
-        <Class imgSrc="/Storm-School.gif" title="Storm 2" />
-        <Class imgSrc="/Storm-School.gif" title="Storm 3" />
-        <Class imgSrc="/Storm-School.gif" title="Storm 4" />
-        <Class imgSrc="/Storm-School.gif" title="Support/Puller" />
-      </Box>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/firejade" element={<FireJade />} />
+        <Route path="/fire1" element={<Fire1 />} />
+        <Route path="/fire2" element={<Fire2 />} />
+        <Route path="/mythjade" element={<MythJade />} />
+        <Route path="/myth1" element={<Myth1 />} />
+        <Route path="/myth2" element={<Myth2 />} />
+        <Route path="/stormjade" element={<StormJade />} />
+        <Route path="/storm1" element={<Storm1 />} />
+        <Route path="/storm2" element={<Storm2 />} />
+        <Route path="/storm3" element={<Storm3 />} />
+        <Route path="/storm4" element={<Storm4 />} />
+        <Route path="/supportpuller" element={<SupportPuller />} />
+      </Routes>
     </ThemeProvider>
   );
 }
