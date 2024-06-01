@@ -1,5 +1,6 @@
 import Header from "../../../components/Header";
 import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import { useNavigate } from "react-router-dom";
 
 import DeckSetup from "../../../components/DeckSetup";
@@ -32,8 +33,23 @@ const FireJade = () => {
           justifyContent: "center",
           alignItems: "center",
           padding: "20px",
+          gap: "20px",
         }}
       >
+        <Button
+          variant="contained"
+          sx={{ width: "30%", height: "70px" }}
+          color="secondary"
+          size="large"
+          onClick={() => navigate("/")}
+          style={{
+            color: "white",
+            backgroundColor: "#272727",
+            fontSize: "calc(0.8em + 0.8vmin)",
+          }}
+        >
+          Home
+        </Button>
         <Button
           variant="contained"
           sx={{ width: "30%", height: "70px" }}
@@ -48,6 +64,38 @@ const FireJade = () => {
         >
           Start Raid
         </Button>
+      </div>
+      <Typography
+        variant="h5"
+        component="div"
+        align="center"
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
+      >
+        Fire Jade POV
+      </Typography>
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+          gap: "20px",
+        }}
+      >
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/yHACIpxSQWc?si=2bOMuI3mq4FfPAMA"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        />
       </div>
     </>
   );

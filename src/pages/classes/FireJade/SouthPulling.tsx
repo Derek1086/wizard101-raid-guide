@@ -4,9 +4,8 @@ import Button from "@mui/material/Button";
 import { useNavigate } from "react-router-dom";
 
 import CustomImage from "../../../components/CustomImage";
-import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
-const FishingFireIce = () => {
+const SouthPulling = () => {
   const navigate = useNavigate();
 
   return (
@@ -24,10 +23,11 @@ const FishingFireIce = () => {
           paddingTop: "20px",
         }}
       >
-        Fishing
+        South Pulling
       </Typography>
+      <CustomImage imgSrc="/FireJade/pulling.png" alt="" height="100px" />
       <Typography
-        variant="h6"
+        variant="h5"
         component="div"
         color="text.secondary"
         align="center"
@@ -36,16 +36,21 @@ const FishingFireIce = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
         }}
       >
-        Catch 4 Fire and 4 Ice Fish in the ponds in the top right near drums
+        Get health from north fish n wisps after yetaxa, then go south and wait
+        for cameca team to form up to deposit rest of the fish in south fish n
+        wisps.
+        <br />
+        once they spawn cameca, wait in the south gate in the dirt pile entrace,
+        and wait for the mob. once the mob is close enough, pull the mob and
+        stall as long as possible.
+        <br />
+        if myth jade cant cover you when you die, try to coordinate with someone
+        who doesnt have a hunhau cantrip, or if possible, cover someone else's
+        dual strike cantrip
       </Typography>
-      <CustomImage
-        imgSrc="/FireJade/fire-ice-fishing.png"
-        alt=""
-        height="200px"
-      />
       <div
         style={{
           width: "100%",
@@ -61,7 +66,7 @@ const FishingFireIce = () => {
           sx={{ width: "20%", height: "70px" }}
           color="secondary"
           size="large"
-          onClick={() => navigate("/firejade")}
+          onClick={() => navigate("/firejade/yetaxa")}
           style={{
             color: "white",
             backgroundColor: "#272727",
@@ -75,33 +80,18 @@ const FishingFireIce = () => {
           sx={{ width: "20%", height: "70px" }}
           color="secondary"
           size="large"
-          onClick={() => navigate("/firejade/westskullfight2")}
+          onClick={() => navigate("/")}
           style={{
             color: "white",
             backgroundColor: "#272727",
             fontSize: "calc(0.8em + 0.8vmin)",
           }}
         >
-          Next
+          Home
         </Button>
       </div>
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-        }}
-      >
-        Raining East?
-      </Typography>
-      <SouthPuzzle />
     </>
   );
 };
 
-export default FishingFireIce;
+export default SouthPulling;

@@ -8,6 +8,8 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select, { SelectChangeEvent } from "@mui/material/Select";
 
+import CustomImage from "../../../components/CustomImage";
+
 import YetaxaStrat1 from "../../../components/strats/Yetaxa/Strat1";
 import YetaxaStrat2 from "../../../components/strats/Yetaxa/Strat2";
 import YetaxaStrat3 from "../../../components/strats/Yetaxa/Strat3";
@@ -43,6 +45,7 @@ const YetaxaFight = () => {
       <Typography
         variant="h6"
         component="div"
+        color="text.secondary"
         align="center"
         sx={{
           width: "100%",
@@ -55,20 +58,11 @@ const YetaxaFight = () => {
         Head north and work with fire team to deposit all fish in North fish n
         wisps and ensure all tokens are set correctly
       </Typography>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <img src="/Yetaxa/map.png" alt="" height={"100px"} />
-      </div>
+      <CustomImage imgSrc="/Yetaxa/map.png" alt="" height="100px" />
       <Typography
         variant="h6"
         component="div"
+        color="text.secondary"
         align="center"
         sx={{
           width: "100%",
@@ -88,6 +82,7 @@ const YetaxaFight = () => {
       <Typography
         variant="h6"
         component="div"
+        color="text.secondary"
         align="center"
         sx={{
           width: "100%",
@@ -108,7 +103,7 @@ const YetaxaFight = () => {
           width: "100%",
         }}
       >
-        <FormControl sx={{ m: 1, minWidth: 120, width: "50%" }} size="small">
+        <FormControl sx={{ m: 1, minWidth: 120, width: "25%" }} size="small">
           <InputLabel id="demo-select-small-label">Minion School</InputLabel>
           <Select
             labelId="demo-select-small-label"
@@ -293,7 +288,7 @@ const YetaxaFight = () => {
           sx={{ width: "20%", height: "70px" }}
           color="secondary"
           size="large"
-          onClick={() => navigate("/firejade/westskullfight")}
+          onClick={() => navigate("/firejade/westskullfight2")}
           style={{
             color: "white",
             backgroundColor: "#272727",
@@ -307,7 +302,7 @@ const YetaxaFight = () => {
           sx={{ width: "20%", height: "70px" }}
           color="secondary"
           size="large"
-          onClick={() => navigate("/firejade/yetaxa")}
+          onClick={() => navigate("/firejade/southpulling")}
           style={{
             color: "white",
             backgroundColor: "#272727",

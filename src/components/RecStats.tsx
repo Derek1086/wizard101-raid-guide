@@ -37,6 +37,7 @@ const RecStats: React.FC<ClassProps> = ({ title, stats }) => {
           <Typography
             variant="h6"
             component="div"
+            color="text.secondary"
             align="center"
             sx={{
               width: "100%",
