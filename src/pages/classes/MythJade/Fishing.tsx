@@ -1,12 +1,9 @@
-import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
 import CustomImage from "../../../components/CustomImage";
-import Navigation from "../../../components/Navigation";
 
-const Fire1Hunhau = () => {
+const MythJadeFishing = () => {
   return (
     <>
-      <Header />
       <Typography
         variant="h5"
         component="div"
@@ -19,11 +16,10 @@ const Fire1Hunhau = () => {
           paddingTop: "20px",
         }}
       >
-        Hunhau Cantrips
+        Fishing
       </Typography>
-      <CustomImage imgSrc="/Hunhau/hunhau.jpg" alt="" height="300px" />
       <Typography
-        variant="body1"
+        variant="h6"
         component="div"
         color="text.secondary"
         align="center"
@@ -38,17 +34,14 @@ const Fire1Hunhau = () => {
           paddingRight: "20%",
         }}
       >
-        When the polymorphs start Hunhau, wait near the top of the pyramid next
-        to the fight and wait for them to call 'send ds'
+        Head West and catch 4 Myth Fish with Myth 1 and Myth 2
         <br />
-        Fire 1 is responsible for Dual Strike 1, meaning when they call 'send
-        ds', you will let Dual Strike 3 go first, then Dual Strike 2 cast, then
-        you will cast Dual Strike 1 last. After sending Dual Strike 1, call out
-        'DS1 Sent'
+        Coordinate with Myth 1 and Myth 2 where to deposit Myth Fish in South,
+        North, and both West Fish n' Wisps
       </Typography>
-      <Navigation prev="/fire1/cameca" next="/" />
+      <CustomImage imgSrc="/WestPuzzle/deathpond.png" alt="" height="200px" />
     </>
   );
 };
 
-export default Fire1Hunhau;
+export default MythJadeFishing;

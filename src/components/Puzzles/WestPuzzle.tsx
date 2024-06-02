@@ -1,7 +1,7 @@
-import Typography from "@mui/material/Typography";
+import { Typography } from "@mui/material";
 import CustomImage from "../CustomImage";
 
-const SouthPuzzle = () => {
+const WestPuzzle = () => {
   return (
     <>
       <Typography
@@ -13,10 +13,10 @@ const SouthPuzzle = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          paddingTop: "20px",
+          padding: "20px",
         }}
       >
-        South Puzzle
+        West Puzzle
       </Typography>
       <Typography
         variant="h6"
@@ -29,19 +29,18 @@ const SouthPuzzle = () => {
           justifyContent: "center",
           alignItems: "center",
           paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        Cast the 'Reveal Invisible' Cantrip in the black numbered spots to
-        reveal tokens
+        Head West and find Cacao Pod's (you can only hold one at a time)
+        <br />
+        Every time you pick up one, deposit it in the pod collector on the West
+        base of the pyramid
       </Typography>
-      <CustomImage imgSrc="/SouthPuzzle/token.png" alt="" height="60px" />
-      <CustomImage imgSrc="/SouthPuzzle/map.png" alt="" height="450px" />
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
+      <div
+        style={{
           width: "100%",
           display: "flex",
           justifyContent: "center",
@@ -49,11 +48,15 @@ const SouthPuzzle = () => {
           padding: "20px",
         }}
       >
-        Tokens must be found in the South and deposited at the southern base of
-        the pyramid where the turnstiles are
-      </Typography>
+        <CustomImage imgSrc="/WestPuzzle/pods.png" alt="" height="125px" />
+        <CustomImage
+          imgSrc="/WestPuzzle/podcollector.png"
+          alt=""
+          height="125px"
+        />
+      </div>
     </>
   );
 };
 
-export default SouthPuzzle;
+export default WestPuzzle;

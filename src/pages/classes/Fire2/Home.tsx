@@ -3,6 +3,7 @@ import Navigation from "../../../components/Navigation";
 
 import DeckSetup from "../../../components/DeckSetup";
 import RecStats from "../../../components/RecStats";
+import PetReqs from "../../../components/PetRequirements";
 
 const Fire2 = () => {
   return (
@@ -21,6 +22,11 @@ const Fire2 = () => {
       <RecStats
         title="Fire 2"
         stats="195% Fire Damage, 68% Fire Pierce, 30% Fire Accuracy, 100% Pip Chance"
+      />
+      <PetReqs
+        title="Fire 2"
+        stats="Bernie's Omen"
+        imgSrc="/Fire2/pet-talent.png"
       />
       <Navigation prev="/" next="/fire2/drums" />
     </>

@@ -56,7 +56,7 @@ const StratRenderer = () => {
           padding: "10px",
         }}
       >
-        *Polymoprhs join fight*
+        *Polymorphs join fight*
         <br />
         <br />
         Donate Power 2 (Optional)

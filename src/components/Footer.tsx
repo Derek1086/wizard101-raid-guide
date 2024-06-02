@@ -20,9 +20,9 @@ const Footer = () => {
             <br />
             Drums Guide - Majorsmilesback
             <br />
-            weakness Ixta - Prismma
+            Weakness Ixta - Prismma
             <br />
-            Viridian CS Varian - Euxjoy
+            Viridian CS Variant - Euxjoy
           </Typography>
         </Toolbar>
       </AppBar>

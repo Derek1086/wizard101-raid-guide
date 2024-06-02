@@ -1,7 +1,7 @@
 import Typography from "@mui/material/Typography";
 import CustomImage from "../CustomImage";
 
-const SouthPuzzle = () => {
+const NorthPuzzle = () => {
   return (
     <>
       <Typography
@@ -16,7 +16,7 @@ const SouthPuzzle = () => {
           paddingTop: "20px",
         }}
       >
-        South Puzzle
+        North Puzzle
       </Typography>
       <Typography
         variant="h6"
@@ -31,11 +31,10 @@ const SouthPuzzle = () => {
           paddingTop: "20px",
         }}
       >
-        Cast the 'Reveal Invisible' Cantrip in the black numbered spots to
-        reveal tokens
+        Collect three tokens total, one from searching in pet mode, two from
+        defeating mobs
       </Typography>
       <CustomImage imgSrc="/SouthPuzzle/token.png" alt="" height="60px" />
-      <CustomImage imgSrc="/SouthPuzzle/map.png" alt="" height="450px" />
       <Typography
         variant="h6"
         component="div"
@@ -46,14 +45,30 @@ const SouthPuzzle = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
         }}
       >
-        Tokens must be found in the South and deposited at the southern base of
-        the pyramid where the turnstiles are
+        Pet Token Locations
       </Typography>
+      <CustomImage imgSrc="/NorthPuzzle/map.png" alt="" height="300px" />
+      <Typography
+        variant="h6"
+        component="div"
+        color="text.secondary"
+        align="center"
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        Tokens must be found in the North and set the three turnstiles for Fire
+        team to summon Yetaxa
+      </Typography>
+      <CustomImage imgSrc="/NorthPuzzle/tokens.png" alt="" height="300px" />
     </>
   );
 };
 
-export default SouthPuzzle;
+export default NorthPuzzle;

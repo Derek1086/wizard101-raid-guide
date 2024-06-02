@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 
-const Fire1Hunhau = () => {
+const MythJadeHunhau = () => {
   return (
     <>
       <Header />
@@ -38,17 +38,15 @@ const Fire1Hunhau = () => {
           paddingRight: "20%",
         }}
       >
-        When the polymorphs start Hunhau, wait near the top of the pyramid next
-        to the fight and wait for them to call 'send ds'
+        Head to the top of the pyramid, and as soon as the first polymorph joins
+        you send your Restoring Rain 3 and call out in chat 'RR3 Sent'
         <br />
-        Fire 1 is responsible for Dual Strike 1, meaning when they call 'send
-        ds', you will let Dual Strike 3 go first, then Dual Strike 2 cast, then
-        you will cast Dual Strike 1 last. After sending Dual Strike 1, call out
-        'DS1 Sent'
+        Head South and Cover Fire Jade for the South mob
       </Typography>
-      <Navigation prev="/fire1/cameca" next="/" />
+      <CustomImage imgSrc="/firejade/southpulling.png" alt="" height="250px" />
+      <Navigation prev="/mythjade/cameca" next="/" />
     </>
   );
 };
 
-export default Fire1Hunhau;
+export default MythJadeHunhau;
