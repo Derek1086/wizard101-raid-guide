@@ -81,7 +81,7 @@ const IxtaStrat1 = () => {
                 textAlign: "center",
               }}
             >
-              Storm 4
+              Storm 3
             </TableCell>
           </TableRow>
         </TableHead>

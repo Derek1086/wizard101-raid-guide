@@ -7,41 +7,35 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 
 function createData(
-  stormjade: string,
-  storm1: string,
-  storm2: string,
-  storm3: string
+  autloc: string,
+  yetaxa: string,
+  ixta: string,
+  cameca: string
 ) {
-  return { stormjade, storm1, storm2, storm3 };
+  return { autloc, yetaxa, ixta, cameca };
 }
 
 const rows = [
   createData(
-    "Storm Bubble",
-    "Threefold (Boss)",
-    "Threefold (Boss)",
-    "Threefold (Boss)"
+    "Elemental Trap/0-pip Counter",
+    "Elemental Trap/0-pip Counter - WC Bernie",
+    "0-pip Counter - WC Torrence",
+    "0-pip Counter - WC Torrence"
   ),
   createData(
-    "Cleanse (Storm 1)",
-    "Turmoil Oni (Boss)",
-    "Cleanse (Storm 3)",
-    "Turmoil Oni (Boss)"
+    "Elemental Trap/0-pip Counter",
+    "Elemental Trap/0-pip Counter - WC Bernie",
+    "0-pip Counter - WC Torrence",
+    "0-pip Counter - WC Torrence"
   ),
   createData(
-    "Donate Power (Storm 3)",
-    "Threefold (Minion)",
-    "Threefold (Minion)",
-    "TC Empower"
-  ),
-  createData(
-    "TC Threefold",
-    "Cleanse (Storm 2)",
-    "Turmoil Oni (Minion)",
-    "Turmoil Oni (Minion)"
+    "Elemental Trap/0-pip Counter",
+    "Bernie's Omen",
+    "Storm Scion",
+    "Storm Scion"
   ),
 ];
-const IxtaGoatStrat2 = () => {
+const HunhauStrat1 = () => {
   return (
     <TableContainer component={Paper}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
@@ -54,7 +48,7 @@ const IxtaGoatStrat2 = () => {
                 textAlign: "center",
               }}
             >
-              Storm Jade
+              Autloc
             </TableCell>
             <TableCell
               align="right"
@@ -63,7 +57,7 @@ const IxtaGoatStrat2 = () => {
                 textAlign: "center",
               }}
             >
-              Storm 1
+              Yetaxa
             </TableCell>
             <TableCell
               align="right"
@@ -72,7 +66,7 @@ const IxtaGoatStrat2 = () => {
                 textAlign: "center",
               }}
             >
-              Storm 2
+              Ixta
             </TableCell>
             <TableCell
               align="right"
@@ -81,37 +75,37 @@ const IxtaGoatStrat2 = () => {
                 textAlign: "center",
               }}
             >
-              Storm 3
+              Cameca
             </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           {rows.map((row) => (
             <TableRow
-              key={row.stormjade}
+              key={row.autloc}
               sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
             >
               <TableCell
                 component="th"
                 scope="row"
                 style={{
-                  color: "#c3c3bb",
+                  color: "#b641e0",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}
               >
-                {row.stormjade}
+                {row.autloc}
               </TableCell>
               <TableCell
                 component="th"
                 scope="row"
                 style={{
-                  color: "#b641e0",
+                  color: "#db5c5c",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}
               >
-                {row.storm1}
+                {row.yetaxa}
               </TableCell>
               <TableCell
                 align="right"
@@ -121,17 +115,17 @@ const IxtaGoatStrat2 = () => {
                   textAlign: "center",
                 }}
               >
-                {row.storm2}
+                {row.ixta}
               </TableCell>
               <TableCell
                 align="right"
                 style={{
-                  color: "#b641e0",
+                  color: "#cccc00",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}
               >
-                {row.storm3}
+                {row.cameca}
               </TableCell>
             </TableRow>
           ))}
@@ -141,4 +135,4 @@ const IxtaGoatStrat2 = () => {
   );
 };
 
-export default IxtaGoatStrat2;
+export default HunhauStrat1;
