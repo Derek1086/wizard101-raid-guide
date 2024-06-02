@@ -75,7 +75,7 @@ function getIcon(stat: string) {
     case "Death":
       return "/Death-School.gif";
     case "Life":
-      return "/Life-School.png";
+      return "/Life-School.gif";
     case "Balance":
       return "/Balance-School.gif";
     default:

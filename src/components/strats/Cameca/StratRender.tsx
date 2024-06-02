@@ -53,10 +53,10 @@ const StratRender = () => {
             onChange={handleChange}
           >
             <MenuItem value={"Strat 1"}>
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/NotLife.png" alt="NotLife" height="25px" />
             </MenuItem>
             <MenuItem value={"Strat 2"}>
-              <img src="/Life-School.png" alt="Life" height="25px" />{" "}
+              <img src="/Life-School.gif" alt="Life" height="25px" />{" "}
             </MenuItem>
             <MenuItem
               value={"Strat 3"}
@@ -65,7 +65,7 @@ const StratRender = () => {
                 gap: "10px",
               }}
             >
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/NotLife.png" alt="NotLife" height="25px" />
               {"   "}
               AND
               {"    "}
@@ -79,7 +79,7 @@ const StratRender = () => {
                 gap: "10px",
               }}
             >
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/Life-School.gif" alt="Life" height="25px" />
               {"   "}
               AND
               {"    "}
@@ -101,10 +101,24 @@ const StratRender = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
             }}
           >
-            Fire 1 or Fire 2 Cast Donate Power 2
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
+            }}
+          >
+            Myth 1 or Myth 2 Cast Donate Power 2
           </Typography>
           <div
             style={{
@@ -132,11 +146,25 @@ const StratRender = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
             }}
           >
-            Fire 1 Cast Donate Power 2<br />
-            Fire 2 Cast Donate Power 2
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
+            }}
+          >
+            Myth 1 Cast Donate Power 2<br />
+            Myth 2 Cast Donate Power 2
           </Typography>
           <div
             style={{
@@ -164,11 +192,25 @@ const StratRender = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
             }}
           >
             IF USING FYTH'S IGNORE <br />
-            Fire 1 or Fire 2 Cast Donate Power 2
+            Myth 1 or Myth 2 Cast Donate Power 2
           </Typography>
           <div
             style={{
@@ -196,11 +238,25 @@ const StratRender = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
             }}
           >
             IF USING FYTH'S IGNORE <br />
-            Fire 1 or Fire 2 Cast Donate Power 2
+            Myth 1 or Myth 2 Cast Donate Power 2
           </Typography>
           <div
             style={{

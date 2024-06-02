@@ -3,6 +3,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import { Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home";
+import Yetaxa from "./components/strats/Yetaxa/Yetaxa";
+import Cameca from "./components/strats/Cameca/Cameca";
 
 import FireJade from "./pages/classes/FireJade/Home";
 import FishingFireIce from "./pages/classes/FireJade/Fishing";
@@ -40,6 +42,8 @@ function App() {
       <CssBaseline />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/yetaxa" element={<Yetaxa />} />
+        <Route path="/cameca" element={<Cameca />} />
         <Route path="/firejade" element={<FireJade />} />
         <Route path="/firejade/fishing" element={<FishingFireIce />} />
         <Route

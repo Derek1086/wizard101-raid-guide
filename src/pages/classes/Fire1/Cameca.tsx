@@ -40,7 +40,7 @@ const Fire1Cameca = () => {
       >
         Head North and get health from the North Fish n' Wisps
         <br />
-        Head south and meetup with Myth jade, Myth 1 and Myth 2
+        Head South and meetup with Myth jade, Myth 1 and Myth 2
       </Typography>
       <CustomImage imgSrc="/Cameca/fishnwisps.png" alt="" height="200px" />
       <Typography
@@ -61,10 +61,6 @@ const Fire1Cameca = () => {
       >
         Get health from South fish n wisps if needed, then wait for the Myth
         Jade to spawn Cameca
-        <br />
-        For strats 1, 3, and 4, talk with Fire 2 and decide who will cast Donate
-        Power 2, for strat 2, Fire 1 and Fire 2 will have to both cast donate
-        power 2
       </Typography>
       <StratRender />
       <Navigation prev="/fire1/yetaxa" next="/fire1/hunhau" />

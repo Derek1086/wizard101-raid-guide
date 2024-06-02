@@ -54,17 +54,17 @@ const StratRenderer = () => {
             onChange={handleChange}
           >
             <MenuItem value={"Strat 1"} sx={{ display: "flex", gap: "10px" }}>
-              <img src="/Fire-School.gif" alt="Fire" height="25px" />
+              <img src="/NotFire.png" alt="NotFire" height="25px" />
               {"   "}
               OR
               {"    "}
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/NotLife.png" alt="NotLife" height="25px" />
             </MenuItem>
             <MenuItem value={"Strat 2"}>
               <img src="/Fire-School.gif" alt="Fire" height="25px" />
             </MenuItem>
             <MenuItem value={"Strat 3"}>
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/Life-School.gif" alt="Life" height="25px" />
             </MenuItem>
             <MenuItem
               value={"Strat 4"}
@@ -74,12 +74,12 @@ const StratRenderer = () => {
               }}
             >
               <img src="/Fire-School.gif" alt="Fire" height="25px" />
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/Life-School.gif" alt="Life" height="25px" />
               {"   "}
               OR
               {"    "}
               <img src="/Myth-School.gif" alt="Myth" height="25px" />
-              <img src="/Life-School.png" alt="Life" height="25px" />
+              <img src="/Life-School.gif" alt="Life" height="25px" />
             </MenuItem>
           </Select>
         </FormControl>
@@ -95,7 +95,21 @@ const StratRenderer = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
             }}
           >
             Stupefy Round 1 <br />
@@ -127,7 +141,21 @@ const StratRenderer = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
             }}
           >
             Stupefy Round 1 <br />
@@ -160,7 +188,21 @@ const StratRenderer = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
             }}
           >
             Stupefy Round 1 <br />
@@ -192,7 +234,21 @@ const StratRenderer = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              padding: "20px",
+            }}
+          >
+            Cantrips
+          </Typography>
+          <Typography
+            variant="body1"
+            component="div"
+            color="text.secondary"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              padding: "10px",
             }}
           >
             Stupefy Round 1 <br />

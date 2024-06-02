@@ -13,8 +13,8 @@ const Class: React.FC<ClassProps> = ({ imgSrc, title }) => {
     <Box
       sx={{
         width: "fit-content",
-        margin: "0 5px", // Add margin horizontally
-        textAlign: "center", // Center align text
+        margin: "0 5px",
+        textAlign: "center",
       }}
     >
       <Button
@@ -33,7 +33,7 @@ const Class: React.FC<ClassProps> = ({ imgSrc, title }) => {
         <img
           src={imgSrc}
           alt={title}
-          style={{ width: "75%", height: "auto" }}
+          style={{ width: "55%", height: "auto" }}
         />
       </Button>
       <Typography

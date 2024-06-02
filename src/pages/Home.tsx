@@ -21,7 +21,7 @@ const Home = () => {
       </Typography>
       <Box
         sx={{
-          width: "80%", // 75% width of the screen
+          width: "80%",
           margin: "0 auto",
           display: "flex",
           flexWrap: "wrap",
@@ -77,6 +77,41 @@ const Home = () => {
           style={{ textDecoration: "none", color: "white" }}
         >
           <Class imgSrc="/Storm-School.gif" title="Support/Puller" />
+        </Link>
+      </Box>
+      <Typography
+        variant="h6"
+        component="div"
+        align="center"
+        sx={{ flexGrow: 1, marginTop: 2 }}
+      >
+        Boss Strats
+      </Typography>
+      <Box
+        sx={{
+          width: "80%",
+          margin: "0 auto",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: 2,
+        }}
+      >
+        <Link to={"/yetaxa"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/Yetaxa/Yetaxa.png" title="Yetaxa" />
+        </Link>
+        <Link to={"/cameca"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/Cameca/Cameca.png" title="Cameca" />
+        </Link>
+        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/Ixta/Ixta.png" title="Ixta" />
+        </Link>
+        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/Autloc/Autloc.png" title="Autloc" />
+        </Link>
+        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/Hunhau/Hunhau.png" title="Hunhau" />
         </Link>
       </Box>
       <Typography
