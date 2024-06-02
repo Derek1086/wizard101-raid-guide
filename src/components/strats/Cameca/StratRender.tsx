@@ -72,7 +72,7 @@ const StratRender = () => {
               <img src="/Death-School.gif" alt="Death" height="25px" />
               <img src="/Storm-School.gif" alt="Storm" height="25px" />
               {"   "}
-              NO FYTHS
+              ANY TRUE MYTHS
             </MenuItem>
             <MenuItem
               value={"Strat 4"}
@@ -88,7 +88,7 @@ const StratRender = () => {
               <img src="/Death-School.gif" alt="Death" height="25px" />
               <img src="/Storm-School.gif" alt="Storm" height="25px" />
               {"   "}
-              NO FYTHS
+              ANY TRUE MYTHS
             </MenuItem>
           </Select>
         </FormControl>

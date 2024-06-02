@@ -44,7 +44,14 @@ import Myth1 from "./pages/classes/Myth1/Myth1";
 import Myth2 from "./pages/classes/Myth2/Myth2";
 import StormJade from "./pages/classes/StormJade/StormJade";
 import Storm1 from "./pages/classes/Storm1/Storm1";
-import Storm2 from "./pages/classes/Storm2/Storm2";
+
+import Storm2 from "./pages/classes/Storm2/Home";
+import Storm2Drums from "./pages/classes/Storm2/Drums";
+import Storm2Fishing from "./pages/classes/Storm2/Fishing";
+import Storm2Ixta from "./pages/classes/Storm2/Ixta";
+import Storm2Autloc from "./pages/classes/Storm2/Autloc";
+import Storm2Hunhau from "./pages/classes/Storm2/Hunhau";
+
 import Storm3 from "./pages/classes/Storm3/Storm3";
 import Storm4 from "./pages/classes/Storm4/Storm4";
 import SupportPuller from "./pages/classes/SupportPuller/SupportPuller";
@@ -60,6 +67,7 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <CssBaseline />
       <Routes>
+        {/* MAIN BOSSES AND STRATS FOR ALL FIGHTS */}
         <Route path="/" element={<Home />} />
         <Route path="/yetaxa" element={<Yetaxa />} />
         <Route path="/cameca" element={<Cameca />} />
@@ -69,7 +77,7 @@ function App() {
         <Route path="/stupefy" element={<Stupefy />} />
         <Route path="/west" element={<WestSkull />} />
         <Route path="/north" element={<NorthTokens />} />
-
+        {/* FIRE JADE */}
         <Route path="/firejade" element={<FireJade />} />
         <Route path="/firejade/fishing" element={<FishingFireIce />} />
         <Route
@@ -78,7 +86,7 @@ function App() {
         />
         <Route path="/firejade/yetaxa" element={<FireJadeYetaxa />} />
         <Route path="/firejade/southpulling" element={<SouthPulling />} />
-
+        {/* FIRE 1 */}
         <Route path="/fire1" element={<Fire1 />} />
         <Route path="/fire1/drums" element={<Fire1Drums />} />
         <Route
@@ -88,7 +96,7 @@ function App() {
         <Route path="/fire1/yetaxa" element={<Fire1Yetaxa />} />
         <Route path="/fire1/cameca" element={<Fire1Cameca />} />
         <Route path="/fire1/hunhau" element={<Fire1Hunhau />} />
-
+        {/* FIRE 2 */}
         <Route path="/fire2" element={<Fire2 />} />
         <Route path="/fire2/drums" element={<Fire2Drums />} />
         <Route
@@ -98,7 +106,7 @@ function App() {
         <Route path="/fire2/fishing" element={<FishingFireIce2 />} />
         <Route path="/fire2/yetaxa" element={<Fire2Yetaxa />} />
         <Route path="/fire2/hunhau" element={<Fire2Hunhau />} />
-
+        {/* MYTH JADE */}
         <Route path="/mythjade" element={<MythJade />} />
         <Route path="/mythjade/northtokenfight" element={<NorthTokenFight />} />
         <Route
@@ -114,7 +122,14 @@ function App() {
         <Route path="/myth2" element={<Myth2 />} />
         <Route path="/stormjade" element={<StormJade />} />
         <Route path="/storm1" element={<Storm1 />} />
+        {/* STORM 2 */}
         <Route path="/storm2" element={<Storm2 />} />
+        <Route path="/storm2/drums" element={<Storm2Drums />} />
+        <Route path="/storm2/fishing" element={<Storm2Fishing />} />
+        <Route path="/storm2/ixta" element={<Storm2Ixta />} />
+        <Route path="/storm2/autloc" element={<Storm2Autloc />} />
+        <Route path="/storm2/hunhau" element={<Storm2Hunhau />} />
+
         <Route path="/storm3" element={<Storm3 />} />
         <Route path="/storm4" element={<Storm4 />} />
         <Route path="/supportpuller" element={<SupportPuller />} />

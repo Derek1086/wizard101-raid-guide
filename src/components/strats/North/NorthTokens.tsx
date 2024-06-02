@@ -2,7 +2,6 @@ import NorthLeft from "./NorthLeft";
 import NorthRight from "./NorthRight";
 import Header from "../../Header";
 import Typography from "@mui/material/Typography";
-import { North } from "@mui/icons-material";
 
 const NorthTokens = () => {
   return (

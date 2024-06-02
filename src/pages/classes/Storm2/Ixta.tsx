@@ -1,11 +1,12 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
-import MythJadeFishing from "./Fishing";
-import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
-import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
+import CustomImage from "../../../components/CustomImage";
+import StratRenderer from "../../../components/strats/Ixta/StratRender";
+import WestPuzzle from "../../../components/Puzzles/WestPuzzle";
+import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
-const MythJadeSpecialCases = () => {
+const Storm2Ixta = () => {
   return (
     <>
       <Header />
@@ -18,10 +19,10 @@ const MythJadeSpecialCases = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
         }}
       >
-        Special Cases
+        Ixta Boss Fight
       </Typography>
       <Typography
         variant="h6"
@@ -39,10 +40,9 @@ const MythJadeSpecialCases = () => {
           paddingRight: "20%",
         }}
       >
-        On the way to Myth Pond in West, check for Stupefy West Mob's school (IF
-        SCHOOL IS LIFE OR FIRE MYTH TEAM CANNOT DO STUPEFY)
+        IF NOT DOING GOATLING STRAT DISREGARD AND SCROLL DOWN
       </Typography>
-      <MythJadeFishing />
+      <CustomImage imgSrc="/Ixta/map.png" alt="" height="200px" />
       <Typography
         variant="h6"
         component="div"
@@ -59,23 +59,31 @@ const MythJadeSpecialCases = () => {
           paddingRight: "20%",
         }}
       >
-        On the way to Myth Pond in West, check for Stupefy West Mob's school (IF
-        SCHOOL IS LIFE OR FIRE MYTH TEAM CANNOT DO STUPEFY)
-        <br />
-        In this case, notify Support/Puller and Storm 4 to do Stupefy instead
-        <br />
-        Myth Jade and Myth 2 will walk over to the West Skull 1 Fight (same
-        strat as Stupefy)
-        <br />
-        If Storm team is doing Stupefy do the West Skull 1 fight whenever Myth 2
-        is ready (Leave skull on the ground for Storm Team to pick up)
+        After the mob passes the Ixta fight, let the Storm Jade pull the fight.
+        Only join after Storm 1 joins
       </Typography>
-      <CustomImage
-        imgSrc="/WestPuzzle/westskullfight.png"
-        alt=""
-        height="200px"
-      />
-      <Navigation prev="/mythjade/northtokenfight" next="/mythjade/stupefy" />
+      <StratRenderer />
+      <Typography
+        variant="h6"
+        component="div"
+        color="text.secondary"
+        align="center"
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
+        }}
+      >
+        If not doing Goatling Strat, head South and help find tokens while
+        waiting on Stupefy
+      </Typography>
+      <SouthPuzzle />
+      <Navigation prev="/storm2/fishing" next="/storm2/autloc" />
       <Typography
         variant="h5"
         component="div"
@@ -88,11 +96,11 @@ const MythJadeSpecialCases = () => {
           paddingTop: "20px",
         }}
       >
-        Raining West?
+        Raining South?
       </Typography>
-      <SouthPuzzle />
+      <WestPuzzle />
     </>
   );
 };
 
-export default MythJadeSpecialCases;
+export default Storm2Ixta;

@@ -20,7 +20,7 @@ const MythJade = () => {
       />
       <RecStats
         title="Myth Jade"
-        stats="High Universal Resist, High Health, 100% Pip Chance, Myth Mastery, 25% Myth Accuracy, High Storm/Ice Resist, 100 Myth Damage"
+        stats="High Universal Resist, High Health, 100% Pip Chance, Myth Mastery, 20% Myth Accuracy, High Storm/Ice Resist, 100 Myth Damage"
       />
       <Navigation prev="/" next="/mythjade/northtokenfight" />
     </>
