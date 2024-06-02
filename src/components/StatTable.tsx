@@ -98,7 +98,10 @@ const StatTable = () => {
             >
               Balance
             </TableCell>
-            <TableCell align="right" style={{ fontWeight: "bold" }}>
+            <TableCell
+              align="right"
+              style={{ color: "#c3c3bb", fontWeight: "bold" }}
+            >
               Death
             </TableCell>
             <TableCell
@@ -109,7 +112,7 @@ const StatTable = () => {
             </TableCell>
             <TableCell
               align="right"
-              style={{ color: "yellow", fontWeight: "bold" }}
+              style={{ color: "#cccc00", fontWeight: "bold" }}
             >
               Myth
             </TableCell>
@@ -148,7 +151,10 @@ const StatTable = () => {
               >
                 {row.balance}
               </TableCell>
-              <TableCell align="right" style={{ fontWeight: "bold" }}>
+              <TableCell
+                align="right"
+                style={{ color: "#c3c3bb", fontWeight: "bold" }}
+              >
                 {row.death}
               </TableCell>
               <TableCell
@@ -159,7 +165,7 @@ const StatTable = () => {
               </TableCell>
               <TableCell
                 align="right"
-                style={{ color: "yellow", fontWeight: "bold" }}
+                style={{ color: "#cccc00", fontWeight: "bold" }}
               >
                 {row.myth}
               </TableCell>

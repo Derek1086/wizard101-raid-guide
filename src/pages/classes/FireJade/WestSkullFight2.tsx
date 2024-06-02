@@ -37,12 +37,12 @@ const FireJadeWestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Head West to Skull Fight (next to the death pond)
+        Head West to Skull 2 Fight
       </Typography>
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"
         alt=""
-        height="150px"
+        height="250px"
       />
       <Typography
         variant="h6"
@@ -57,14 +57,19 @@ const FireJadeWestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Pull Mob and Follow these steps
+        Pull Sky Screecher and follow the strat
       </Typography>
+      <CustomImage
+        imgSrc="/WestPuzzle/skyscreecher.png"
+        alt=""
+        height="250px"
+      />
       <div
         style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "10px",
+          padding: "20px",
           width: "100%",
         }}
       >
@@ -85,10 +90,9 @@ const FireJadeWestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Collect Skull, then work with fire 1 and 2 to get a total of 4 death
-        fish in the death pond
+        After defeating Sky Screecher, collect the Crytal Skull
       </Typography>
-      <CustomImage imgSrc="/WestPuzzle/skull.png" alt="" height="150px" />
+      <CustomImage imgSrc="/WestPuzzle/skull.png" alt="" height="100" />
       <Typography
         variant="h6"
         component="div"
@@ -102,7 +106,25 @@ const FireJadeWestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Head to the west end of the pyramid and deposit the skull
+        Work with Fire 1 and Fire 2 to get a total of 4 Death fish if not
+        already caught from the death pond
+      </Typography>
+      <CustomImage imgSrc="/WestPuzzle/deathpond.png" alt="" height="150px" />
+
+      <Typography
+        variant="h6"
+        component="div"
+        color="text.secondary"
+        align="center"
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
+      >
+        Head to the West end of the pyramid and deposit the Crystal Skull
       </Typography>
       <CustomImage
         imgSrc="/WestPuzzle/skullcollector.png"

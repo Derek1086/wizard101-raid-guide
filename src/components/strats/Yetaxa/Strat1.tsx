@@ -45,7 +45,6 @@ const YetaxaStrat1 = () => {
             <TableCell
               align="right"
               style={{
-                color: "#808080",
                 fontWeight: "bold",
                 textAlign: "center",
               }}
@@ -55,7 +54,6 @@ const YetaxaStrat1 = () => {
             <TableCell
               align="right"
               style={{
-                color: "#808080",
                 fontWeight: "bold",
                 textAlign: "center",
               }}
@@ -65,7 +63,6 @@ const YetaxaStrat1 = () => {
             <TableCell
               align="right"
               style={{
-                color: "#808080",
                 fontWeight: "bold",
                 textAlign: "center",
               }}
@@ -75,7 +72,6 @@ const YetaxaStrat1 = () => {
             <TableCell
               align="right"
               style={{
-                color: "#808080",
                 fontWeight: "bold",
                 textAlign: "center",
               }}
@@ -94,7 +90,7 @@ const YetaxaStrat1 = () => {
                 component="th"
                 scope="row"
                 style={{
-                  color: "white",
+                  color: "#c3c3bb",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}
@@ -125,7 +121,7 @@ const YetaxaStrat1 = () => {
               <TableCell
                 align="right"
                 style={{
-                  color: "yellow",
+                  color: "#cccc00",
                   fontWeight: "bold",
                   textAlign: "center",
                 }}

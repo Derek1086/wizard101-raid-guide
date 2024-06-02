@@ -37,6 +37,9 @@ const FishingFireIce = () => {
         }}
       >
         Catch 4 Fire and 4 Ice Fish in the ponds in the top right near drums
+        <br />
+        Coordinate with Fire 2 where to deposit Fire and Ice Fish in both West
+        and North Fish n' Wisps
       </Typography>
       <CustomImage
         imgSrc="/FireJade/fire-ice-fishing.png"

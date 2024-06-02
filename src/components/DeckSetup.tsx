@@ -50,7 +50,7 @@ const DeckSetup: React.FC<ClassProps> = ({
       >
         <div
           style={{
-            width: "33.3%",
+            width: "35%",
           }}
         >
           <Typography
@@ -81,12 +81,6 @@ const DeckSetup: React.FC<ClassProps> = ({
           >
             {main}
           </Typography>
-        </div>
-        <div
-          style={{
-            width: "33.4%",
-          }}
-        >
           <Typography
             variant="h6"
             component="div"
@@ -118,7 +112,7 @@ const DeckSetup: React.FC<ClassProps> = ({
         </div>
         <div
           style={{
-            width: "33.3%",
+            width: "35%",
           }}
         >
           <Typography
@@ -161,11 +155,7 @@ const DeckSetup: React.FC<ClassProps> = ({
           gap: "20px",
         }}
       >
-        <div
-          style={{
-            width: "33.3%",
-          }}
-        >
+        <div>
           <Typography
             variant="h6"
             component="div"

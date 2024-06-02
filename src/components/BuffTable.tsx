@@ -25,13 +25,13 @@ function getColor(stat: string) {
     case "Fire":
       return "#db5c5c";
     case "Myth":
-      return "yellow";
+      return "#cccc00";
     case "Ice":
       return "#95b7f5";
     case "Storm":
       return "#b641e0";
     case "Death":
-      return "white";
+      return "#c3c3bb";
     case "Life":
       return "#90EE90";
     case "Balance":
@@ -125,7 +125,11 @@ const BuffTable = () => {
               </TableCell>
               <TableCell
                 align="right"
-                style={{ fontWeight: "bold", textAlign: "center" }}
+                style={{
+                  fontWeight: "bold",
+                  textAlign: "center",
+                  color: "#c3c3bb",
+                }}
               >
                 {row.buff}
                 <br />

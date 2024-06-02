@@ -1,7 +1,6 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
 import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 import StratRenderer from "../../../components/strats/Yetaxa/StratRenderer";
 
@@ -36,10 +35,10 @@ const FireJadeYetaxa = () => {
           padding: "20px",
         }}
       >
-        Head north and work with fire team to deposit all fish in North fish n
-        wisps and ensure all tokens are set correctly
+        Head North and work with Fire 1 and Fire 2 to deposit all Death fish in
+        North, South, and both West Fish n' Wisps.
       </Typography>
-      <CustomImage imgSrc="/Yetaxa/map.png" alt="" height="100px" />
+      <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="200px" />
       <Typography
         variant="h6"
         component="div"
@@ -50,16 +49,32 @@ const FireJadeYetaxa = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        Head to the drum in the middle, and wait for stupefy team to call out
-        when to spawn yetaxa. after spawning, head to the back of north if it
-        isnt raining and check what mob spawned, coatl or sky crier (grandma)
+        Ensure all North tokens are set correctly to spawn Yetaxa
         <br />
-        Wait with fire team and wait for stupefy team to call when to pull, when
-        they call to pull, pull the minion first
+        Head to the drum in the middle, and wait for stupefy team to call out
+        when to spawn Yetaxa. After spawning, head to the back of North IF IT
+        ISNT RAINING NORTH and check what mob spawned, Coatl (fast) or Sky Crier
+        (slow). If Coatl, let it pass to the top of pyramid before starting
+        Yetaxa
       </Typography>
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
+      >
+        <CustomImage imgSrc="/Yetaxa/coatl.png" alt="" height="200px" />
+        <CustomImage imgSrc="/Yetaxa/skycrier.png" alt="" height="200px" />
+      </div>
       <Typography
         variant="h6"
         component="div"
@@ -73,7 +88,8 @@ const FireJadeYetaxa = () => {
           padding: "20px",
         }}
       >
-        choose minion school to generate strat
+        Wait with fire team and wait for stupefy team to call when to pull.
+        <br /> When they call to pull, pull the minion first
       </Typography>
       <StratRenderer />
       <Navigation

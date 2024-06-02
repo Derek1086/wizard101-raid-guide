@@ -37,8 +37,8 @@ const Fire1WestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Head West to Skull Fight (next to the death pond), fish for 4 death fish
-        until fire jade and fire 2 arrives
+        Head West to Skull 2 Fight, try to fish for 4 Death fish until fire Jade
+        and Fire 2 arrives
       </Typography>
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"
@@ -58,8 +58,14 @@ const Fire1WestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Let fire jade pull mob, then join and follow strat below
+        Let Fire Jade pull Sky Screecher, then join after they cast Fire Bubble
+        Round 1
       </Typography>
+      <CustomImage
+        imgSrc="/WestPuzzle/skyscreecher.png"
+        alt=""
+        height="250px"
+      />
       <div
         style={{
           display: "flex",
@@ -83,11 +89,14 @@ const Fire1WestSkullFight2 = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        After fight, go to pond and work with fire jade/fire 2 to collect rest
-        of the death fish if needed
+        After defeating Sky Screecher, go to the death pond and work with Fire
+        Jade and Fire 2 to collect the rest of the 4 Death fish if needed
       </Typography>
       <Navigation prev="/fire1/drums" next="/fire1/yetaxa" />
       <Typography

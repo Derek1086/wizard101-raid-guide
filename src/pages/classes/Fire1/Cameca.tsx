@@ -32,32 +32,17 @@ const Fire1Cameca = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        Head north and get health from north fish n wisps, then head south and
-        meetup with myth jade, myth 1 and myth 2
-      </Typography>
-      <CustomImage imgSrc="/Yetaxa/map.png" alt="" height="100px" />
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Get health from south fish n wisps if still need, then wait for myth
-        jade to spawn cameca
+        Head North and get health from the North Fish n' Wisps
         <br />
-        for strats 1, 3, and 4, talk with fire 2 and decide who will cast donate
-        power 2, for strat 2, fire 1 and 2 will have to both cast donate power 2
+        Head south and meetup with Myth jade, Myth 1 and Myth 2
       </Typography>
+      <CustomImage imgSrc="/Cameca/fishnwisps.png" alt="" height="200px" />
       <Typography
         variant="h6"
         component="div"
@@ -68,10 +53,18 @@ const Fire1Cameca = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        choose minion school to generate strat
+        Get health from South fish n wisps if needed, then wait for the Myth
+        Jade to spawn Cameca
+        <br />
+        For strats 1, 3, and 4, talk with Fire 2 and decide who will cast Donate
+        Power 2, for strat 2, Fire 1 and Fire 2 will have to both cast donate
+        power 2
       </Typography>
       <StratRender />
       <Navigation prev="/fire1/yetaxa" next="/fire1/hunhau" />

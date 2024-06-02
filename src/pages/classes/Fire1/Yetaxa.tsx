@@ -1,28 +1,10 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
 import Navigation from "../../../components/Navigation";
-import { useState } from "react";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import FormControl from "@mui/material/FormControl";
-import Select, { SelectChangeEvent } from "@mui/material/Select";
-
 import CustomImage from "../../../components/CustomImage";
-
-import YetaxaStrat1 from "../../../components/strats/Yetaxa/Strat1";
-import YetaxaStrat2 from "../../../components/strats/Yetaxa/Strat2";
-import YetaxaStrat3 from "../../../components/strats/Yetaxa/Strat3";
-import YetaxaStrat4 from "../../../components/strats/Yetaxa/Strat4";
+import StratRenderer from "../../../components/strats/Yetaxa/StratRenderer";
 
 const Fire1Yetaxa = () => {
-  const [strat, setStrat] = useState("");
-
-  const handleChange = (event: SelectChangeEvent) => {
-    const selectedStrat = event.target.value;
-    setStrat(selectedStrat);
-    console.log(selectedStrat);
-  };
-
   return (
     <>
       <Header />
@@ -50,13 +32,16 @@ const Fire1Yetaxa = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        Head north and work with fire team to deposit all fish in North fish n
-        wisps
+        Head North and work with Fire Jade and Fire to deposit Death fish in
+        North, South, and both West Fish n' Wisps
       </Typography>
-      <CustomImage imgSrc="/Yetaxa/map.png" alt="" height="100px" />
+      <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="200px" />
       <Typography
         variant="h6"
         component="div"
@@ -67,209 +52,20 @@ const Fire1Yetaxa = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
         Head to the top/side of the pyramid to avoid getting pulled by mob that
-        spawns when summoning yetaxa
+        spawns when summoning Yetaxa.
         <br />
-        Wait for the fire jade to pull the fight, then join right after fire
-        jade if it is a strat that doesnt require you to cast donate power 1
+        Wait for the Fire Jade to pull the fight, then join right after the Fire
+        Jade. If it is a strat that requires you to cast Donate Power 1, cast it
+        first, then join the fight.
       </Typography>
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        choose minion school to generate strat
-      </Typography>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <FormControl sx={{ m: 1, minWidth: 120, width: "25%" }} size="small">
-          <InputLabel id="demo-select-small-label">Minion School</InputLabel>
-          <Select
-            labelId="demo-select-small-label"
-            id="demo-select-small"
-            value={strat}
-            label="Minion School"
-            onChange={handleChange}
-          >
-            <MenuItem value={"Strat 1"} sx={{ display: "flex", gap: "10px" }}>
-              <img src="/Fire-School.gif" alt="Fire" height="25px" />
-              {"   "}
-              OR
-              {"    "}
-              <img src="/Life-School.png" alt="Life" height="25px" />
-            </MenuItem>
-            <MenuItem value={"Strat 2"}>
-              <img src="/Fire-School.gif" alt="Fire" height="25px" />
-            </MenuItem>
-            <MenuItem value={"Strat 3"}>
-              <img src="/Life-School.png" alt="Life" height="25px" />
-            </MenuItem>
-            <MenuItem
-              value={"Strat 4"}
-              style={{
-                display: "flex",
-                gap: "10px",
-              }}
-            >
-              <img src="/Fire-School.gif" alt="Fire" height="25px" />
-              <img src="/Life-School.png" alt="Life" height="25px" />
-              {"   "}
-              OR
-              {"    "}
-              <img src="/Myth-School.gif" alt="Myth" height="25px" />
-              <img src="/Life-School.png" alt="Life" height="25px" />
-            </MenuItem>
-          </Select>
-        </FormControl>
-      </div>
-
-      {strat !== "" && strat === "Strat 1" && (
-        <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "20px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-              width: "100%",
-            }}
-          >
-            <div style={{ width: "70%" }}>
-              <YetaxaStrat1 />
-            </div>
-          </div>
-        </>
-      )}
-      {strat !== "" && strat === "Strat 2" && (
-        <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "20px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 1 Cast Donate Power 1<br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-              width: "100%",
-            }}
-          >
-            <div style={{ width: "70%" }}>
-              <YetaxaStrat2 />
-            </div>
-          </div>
-        </>
-      )}
-      {strat !== "" && strat === "Strat 3" && (
-        <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "20px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-              width: "100%",
-            }}
-          >
-            <div style={{ width: "70%" }}>
-              <YetaxaStrat3 />
-            </div>
-          </div>
-        </>
-      )}
-      {strat !== "" && strat === "Strat 4" && (
-        <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "20px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-              width: "100%",
-            }}
-          >
-            <div style={{ width: "70%" }}>
-              <YetaxaStrat4 />
-            </div>
-          </div>
-        </>
-      )}
+      <StratRenderer />
       <Navigation prev="/fire1/westskullfight2" next="/fire1/cameca" />
     </>
   );

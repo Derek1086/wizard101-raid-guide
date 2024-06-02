@@ -16,11 +16,11 @@ const Fire1 = () => {
         main="Fire Trap, Bernie Notice, Caldera Jinn, Helephant, Spirit Trap"
         item="Amulet Blade (+40%), Deck Sun Trap"
         side="Top Path Immolate x2, Empower, Cleanse Charm, Donate Power x2, Spirit Shield x3, Spirit Trap"
-        cantrip="Donate Power 1, Donate Power 2, Dual Strike 1"
+        cantrip="Donate Power 1 (Yetaxa), Donate Power 2 (Cameca), Dual Strike 1 (Hunhau)"
       />
       <RecStats
         title="Fire 1"
-        stats="195% Damage, 68% Pierce, 30% Accuracy, 100% Pip Chance, "
+        stats="195% Fire Damage, 68% Fire Pierce, 30% Fire Accuracy, 100% Pip Chance"
       />
       <Navigation prev="/" next="/fire1/drums" />
     </>

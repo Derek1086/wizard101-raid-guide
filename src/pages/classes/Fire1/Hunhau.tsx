@@ -1,6 +1,6 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
-
+import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 
 const Fire1Drums = () => {
@@ -21,6 +21,7 @@ const Fire1Drums = () => {
       >
         Hunhau Cantrips
       </Typography>
+      <CustomImage imgSrc="/Hunhau/hunhau.jpg" alt="" height="300px" />
       <Typography
         variant="body1"
         component="div"
@@ -31,14 +32,18 @@ const Fire1Drums = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          paddingTop: "20px",
+          paddingBottom: "20px",
+          paddingLeft: "20%",
+          paddingRight: "20%",
         }}
       >
-        when the polymorphs start hunhau, wait near the top of the pyramid next
-        to the fight and wait for them to call "send ds"
+        When the polymorphs start Hunhau, wait near the top of the pyramid next
+        to the fight and wait for them to call 'send ds'
         <br />
-        Fire 1 is responsible for dual strike 1, meaning when they call ds, you
-        will let ds3 go first, then ds2 cast, then finally, you will cast dual
-        strike 1 last
+        Fire 1 is responsible for Dual Strike 1, meaning when they call 'send
+        ds', you will let Dual Strike 3 go first, then Dual Strike 2 cast, then
+        you will cast Dual Strike 1 last
       </Typography>
       <Navigation prev="/fire1/cameca" next="/" />
     </>

@@ -1,5 +1,4 @@
 import Typography from "@mui/material/Typography";
-import CircleIcon from "@mui/icons-material/Circle";
 import CustomImage from "../CustomImage";
 
 const SouthPuzzle = () => {
@@ -20,7 +19,7 @@ const SouthPuzzle = () => {
         South Puzzle
       </Typography>
       <Typography
-        variant="h5"
+        variant="h6"
         component="div"
         color="text.secondary"
         align="center"
@@ -32,122 +31,13 @@ const SouthPuzzle = () => {
           paddingTop: "20px",
         }}
       >
-        Cast the Reveal Invisible Cantrip in the orange spots to reveal tokens
+        Cast the 'Reveal Invisible' Cantrip in the black numbered spots to
+        reveal tokens
       </Typography>
-      <CustomImage imgSrc="/SouthPuzzle/token.png" alt="" height="100px" />
-      <CustomImage imgSrc="/SouthPuzzle/map.png" alt="" height="300px" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          gap: "20px",
-        }}
-      >
-        <div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            <CircleIcon sx={{ color: "#00d1c0" }} fontSize="large" />
-          </div>
-          <Typography
-            variant="body1"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Astral Token
-          </Typography>
-        </div>
-        <div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            <CircleIcon sx={{ color: "#00ff00" }} fontSize="large" />
-          </div>
-          <Typography
-            variant="body1"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Wildlife Token
-          </Typography>
-        </div>
-        <div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            <CircleIcon sx={{ color: "#b75cf7" }} fontSize="large" />
-          </div>
-          <Typography
-            variant="body1"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            School Token
-          </Typography>
-        </div>
-        <div>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            <CircleIcon sx={{ color: "#ff9300" }} fontSize="large" />
-          </div>
-          <Typography
-            variant="body1"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Stand here to reveal
-          </Typography>
-        </div>
-      </div>
+      <CustomImage imgSrc="/SouthPuzzle/token.png" alt="" height="60px" />
+      <CustomImage imgSrc="/SouthPuzzle/map.png" alt="" height="450px" />
       <Typography
-        variant="h5"
+        variant="h6"
         component="div"
         color="text.secondary"
         align="center"

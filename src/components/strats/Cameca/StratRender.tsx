@@ -20,6 +20,20 @@ const StratRender = () => {
   };
   return (
     <>
+      <Typography
+        variant="h6"
+        component="div"
+        align="center"
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
+      >
+        Choose minion schools
+      </Typography>
       <div
         style={{
           display: "flex",

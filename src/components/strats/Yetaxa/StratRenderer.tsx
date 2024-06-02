@@ -21,6 +21,20 @@ const StratRenderer = () => {
 
   return (
     <>
+      <Typography
+        variant="h6"
+        component="div"
+        align="center"
+        sx={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
+      >
+        Choose minion schools
+      </Typography>
       <div
         style={{
           display: "flex",
@@ -31,12 +45,12 @@ const StratRenderer = () => {
         }}
       >
         <FormControl sx={{ m: 1, minWidth: 120, width: "25%" }} size="small">
-          <InputLabel id="demo-select-small-label">Minion School</InputLabel>
+          <InputLabel id="demo-select-small-label">Minion Schools</InputLabel>
           <Select
             labelId="demo-select-small-label"
             id="demo-select-small"
             value={strat}
-            label="Minion School"
+            label="Minion Schools"
             onChange={handleChange}
           >
             <MenuItem value={"Strat 1"} sx={{ display: "flex", gap: "10px" }}>
