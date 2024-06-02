@@ -4,7 +4,7 @@ import Navigation from "../../../components/Navigation";
 import CustomImage from "../../../components/CustomImage";
 import StratRenderer from "../../../components/strats/Yetaxa/StratRenderer";
 
-const Fire1Yetaxa = () => {
+const Fire2Yetaxa = () => {
   return (
     <>
       <Header />
@@ -38,7 +38,7 @@ const Fire1Yetaxa = () => {
           paddingRight: "20%",
         }}
       >
-        Head North and work with Fire Jade and Fire 2 to deposit Death fish in
+        Head North and work with Fire Jade and Fire 1 to deposit Death fish in
         North, South, and both West Fish n' Wisps
       </Typography>
       <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="200px" />
@@ -61,14 +61,14 @@ const Fire1Yetaxa = () => {
         Head to the top/side of the pyramid to avoid getting pulled by mob that
         spawns when summoning Yetaxa.
         <br />
-        Wait for the Fire Jade to pull the fight, then join right after the Fire
-        Jade. If it is a strat that requires you to cast Donate Power 1, cast it
-        first, then join the fight.
+        Wait for the Fire Jade to pull the fight, then cast Donate Power 3.
+        <br />
+        Join only AFTER Fire 1 joins
       </Typography>
       <StratRenderer />
-      <Navigation prev="/fire1/westskullfight2" next="/fire1/cameca" />
+      <Navigation prev="/fire2/westskullfight2" next="/fire2/hunhau" />
     </>
   );
 };
 
-export default Fire1Yetaxa;
+export default Fire2Yetaxa;

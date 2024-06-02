@@ -22,7 +22,13 @@ import Fire1Yetaxa from "./pages/classes/Fire1/Yetaxa";
 import Fire1Cameca from "./pages/classes/Fire1/Cameca";
 import Fire1Hunhau from "./pages/classes/Fire1/Hunhau";
 
-import Fire2 from "./pages/classes/Fire2/Fire2";
+import Fire2 from "./pages/classes/Fire2/Home";
+import Fire2Drums from "./pages/classes/Fire2/Drums";
+import FishingFireIce2 from "./pages/classes/Fire2/Fishing";
+import Fire2WestSkullFight2 from "./pages/classes/Fire2/WestSkullFight2";
+import Fire2Yetaxa from "./pages/classes/Fire2/Yetaxa";
+import Fire2Hunhau from "./pages/classes/Fire2/Hunhau";
+
 import MythJade from "./pages/classes/MythJade/MythJade";
 import Myth1 from "./pages/classes/Myth1/Myth1";
 import Myth2 from "./pages/classes/Myth2/Myth2";
@@ -50,6 +56,7 @@ function App() {
         <Route path="/ixta" element={<Ixta />} />
         <Route path="/autloc" element={<Autloc />} />
         <Route path="/hunhau" element={<Hunhau />} />
+
         <Route path="/firejade" element={<FireJade />} />
         <Route path="/firejade/fishing" element={<FishingFireIce />} />
         <Route
@@ -58,6 +65,7 @@ function App() {
         />
         <Route path="/firejade/yetaxa" element={<FireJadeYetaxa />} />
         <Route path="/firejade/southpulling" element={<SouthPulling />} />
+
         <Route path="/fire1" element={<Fire1 />} />
         <Route path="/fire1/drums" element={<Fire1Drums />} />
         <Route
@@ -67,7 +75,17 @@ function App() {
         <Route path="/fire1/yetaxa" element={<Fire1Yetaxa />} />
         <Route path="/fire1/cameca" element={<Fire1Cameca />} />
         <Route path="/fire1/hunhau" element={<Fire1Hunhau />} />
+
         <Route path="/fire2" element={<Fire2 />} />
+        <Route path="/fire2/drums" element={<Fire2Drums />} />
+        <Route
+          path="/fire2/westskullfight2"
+          element={<Fire2WestSkullFight2 />}
+        />
+        <Route path="/fire2/fishing" element={<FishingFireIce2 />} />
+        <Route path="/fire2/yetaxa" element={<Fire2Yetaxa />} />
+        <Route path="/fire2/hunhau" element={<Fire2Hunhau />} />
+
         <Route path="/mythjade" element={<MythJade />} />
         <Route path="/myth1" element={<Myth1 />} />
         <Route path="/myth2" element={<Myth2 />} />

@@ -6,7 +6,7 @@ import CustomImage from "../../../components/CustomImage";
 import WestSkull2 from "../../../components/strats/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
-const Fire1WestSkullFight2 = () => {
+const Fire2WestSkullFight2 = () => {
   return (
     <>
       <Header />
@@ -37,8 +37,7 @@ const Fire1WestSkullFight2 = () => {
           padding: "20px",
         }}
       >
-        Head West to Skull 2 Fight, try to fish for 4 Death fish until fire Jade
-        and Fire 2 arrives
+        Head West to Skull 2 Fight with the Fire Jade
       </Typography>
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"
@@ -95,9 +94,9 @@ const Fire1WestSkullFight2 = () => {
         }}
       >
         After defeating Sky Screecher, go to the death pond and work with Fire
-        Jade and Fire 2 to collect the rest of the 4 Death fish if needed
+        Jade and Fire 1 to collect the rest of the 4 Death fish if needed
       </Typography>
-      <Navigation prev="/fire1/drums" next="/fire1/yetaxa" />
+      <Navigation prev="/fire2/fishing" next="/fire2/yetaxa" />
       <Typography
         variant="h5"
         component="div"
@@ -117,4 +116,4 @@ const Fire1WestSkullFight2 = () => {
   );
 };
 
-export default Fire1WestSkullFight2;
+export default Fire2WestSkullFight2;

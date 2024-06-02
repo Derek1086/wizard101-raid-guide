@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 import Class from "../components/Class";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import BuffTable from "../components/BuffTable";
 import StatTable from "../components/StatTable";
 
@@ -180,6 +181,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

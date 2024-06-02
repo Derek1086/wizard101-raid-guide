@@ -1,9 +1,10 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
-import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 
-const Fire1Hunhau = () => {
+import CustomImage from "../../../components/CustomImage";
+
+const FishingFireIce2 = () => {
   return (
     <>
       <Header />
@@ -19,11 +20,10 @@ const Fire1Hunhau = () => {
           paddingTop: "20px",
         }}
       >
-        Hunhau Cantrips
+        Fishing
       </Typography>
-      <CustomImage imgSrc="/Hunhau/hunhau.jpg" alt="" height="300px" />
       <Typography
-        variant="body1"
+        variant="h6"
         component="div"
         color="text.secondary"
         align="center"
@@ -32,22 +32,23 @@ const Fire1Hunhau = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          paddingTop: "20px",
-          paddingBottom: "20px",
-          paddingLeft: "20%",
-          paddingRight: "20%",
+          padding: "20px",
         }}
       >
-        When the polymorphs start Hunhau, wait near the top of the pyramid next
-        to the fight and wait for them to call 'send ds'
+        Help the Fire Jade catch 4 Ice Fish in the ponds in the top right near
+        drums
         <br />
-        Fire 1 is responsible for Dual Strike 1, meaning when they call 'send
-        ds', you will let Dual Strike 3 go first, then Dual Strike 2 cast, then
-        you will cast Dual Strike 1 last
+        Coordinate with Fire Jade where to deposit Fire and Ice Fish in both
+        West and North Fish n' Wisps
       </Typography>
-      <Navigation prev="/fire1/cameca" next="/" />
+      <CustomImage
+        imgSrc="/FireJade/fire-ice-fishing.png"
+        alt=""
+        height="200px"
+      />
+      <Navigation prev="/fire2/drums" next="/fire2/westskullfight2" />
     </>
   );
 };
 
-export default Fire1Hunhau;
+export default FishingFireIce2;
