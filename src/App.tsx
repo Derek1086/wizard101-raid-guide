@@ -5,6 +5,9 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Yetaxa from "./components/strats/Yetaxa/Yetaxa";
 import Cameca from "./components/strats/Cameca/Cameca";
+import Ixta from "./components/strats/Ixta/Ixta";
+import Autloc from "./components/strats/Autloc/Autloc";
+import Hunhau from "./components/strats/Hunhau/Hunhau";
 
 import FireJade from "./pages/classes/FireJade/Home";
 import FishingFireIce from "./pages/classes/FireJade/Fishing";
@@ -44,6 +47,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/yetaxa" element={<Yetaxa />} />
         <Route path="/cameca" element={<Cameca />} />
+        <Route path="/ixta" element={<Ixta />} />
+        <Route path="/autloc" element={<Autloc />} />
+        <Route path="/hunhau" element={<Hunhau />} />
         <Route path="/firejade" element={<FireJade />} />
         <Route path="/firejade/fishing" element={<FishingFireIce />} />
         <Route

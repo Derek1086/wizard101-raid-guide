@@ -104,13 +104,13 @@ const Home = () => {
         <Link to={"/cameca"} style={{ textDecoration: "none", color: "white" }}>
           <Class imgSrc="/Cameca/Cameca.png" title="Cameca" />
         </Link>
-        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+        <Link to={"/ixta"} style={{ textDecoration: "none", color: "white" }}>
           <Class imgSrc="/Ixta/Ixta.png" title="Ixta" />
         </Link>
-        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+        <Link to={"/autloc"} style={{ textDecoration: "none", color: "white" }}>
           <Class imgSrc="/Autloc/Autloc.png" title="Autloc" />
         </Link>
-        <Link to={"/"} style={{ textDecoration: "none", color: "white" }}>
+        <Link to={"/hunhau"} style={{ textDecoration: "none", color: "white" }}>
           <Class imgSrc="/Hunhau/Hunhau.png" title="Hunhau" />
         </Link>
       </Box>
