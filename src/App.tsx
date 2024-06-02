@@ -58,7 +58,12 @@ import Storm2Ixta from "./pages/classes/Storm2/Ixta";
 import Storm2Autloc from "./pages/classes/Storm2/Autloc";
 import Storm2Hunhau from "./pages/classes/Storm2/Hunhau";
 
-import Storm3 from "./pages/classes/Storm3/Storm3";
+import Storm3 from "./pages/classes/Storm3/Home";
+import Storm3Drums from "./pages/classes/Storm3/Drums";
+import Storm3Fishing from "./pages/classes/Storm3/Fishing";
+import Storm3Ixta from "./pages/classes/Storm3/Ixta";
+import Storm3Hunhau from "./pages/classes/Storm3/Hunhau";
+
 import Storm4 from "./pages/classes/Storm4/Storm4";
 import SupportPuller from "./pages/classes/SupportPuller/SupportPuller";
 
@@ -141,8 +146,13 @@ function App() {
         <Route path="/storm2/ixta" element={<Storm2Ixta />} />
         <Route path="/storm2/autloc" element={<Storm2Autloc />} />
         <Route path="/storm2/hunhau" element={<Storm2Hunhau />} />
-
+        {/* STORM 3 */}
         <Route path="/storm3" element={<Storm3 />} />
+        <Route path="/storm3/drums" element={<Storm3Drums />} />
+        <Route path="/storm3/fishing" element={<Storm3Fishing />} />
+        <Route path="/storm3/ixta" element={<Storm3Ixta />} />
+        <Route path="/storm3/hunhau" element={<Storm3Hunhau />} />
+        {/* STORM 4 */}
         <Route path="/storm4" element={<Storm4 />} />
         <Route path="/supportpuller" element={<SupportPuller />} />
       </Routes>
