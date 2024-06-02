@@ -1,10 +1,10 @@
 import Header from "../../../components/Header";
 import Typography from "@mui/material/Typography";
 import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
+import StratRenderer from "../../../components/strats/Autloc/StratRender";
 
-const Storm2Fishing = () => {
+const Storm1Autloc = () => {
   return (
     <>
       <Header />
@@ -20,7 +20,7 @@ const Storm2Fishing = () => {
           paddingTop: "20px",
         }}
       >
-        Fishing
+        Autloc Boss Fight
       </Typography>
       <Typography
         variant="h6"
@@ -38,10 +38,9 @@ const Storm2Fishing = () => {
           paddingRight: "20%",
         }}
       >
-        After completing drums Ixta will spawn on the East end of the pyramid
-        <br />A mob will spawn on the back end of East, while waiting for the
-        mob to pass by the Ixta fight, fish for 4 Storm Fish
+        If South isn't done, go back a page and complete South
       </Typography>
+      <CustomImage imgSrc="/Autloc/map.png" alt="" height="200px" />
       <Typography
         variant="h6"
         component="div"
@@ -58,16 +57,17 @@ const Storm2Fishing = () => {
           paddingRight: "20%",
         }}
       >
-        Work with Storm Jade, Storm 1, and Storm 3 to catch 4 Storm Fish from
-        the ponds displayed below
+        Head West and help find pods. Once done, get health from West Fish n'
+        Wisps
         <br />
-        Coordinate with your team where to deposit the Storm Fish in South,
-        North and both West Fish n' Wisps
+        Once Autloc spawns, let the Storm Jade pull the fight. Only join after
+        the Storm Jade and casting Restoring Rain 1 or Dual Strike 2 depending
+        on Strat
       </Typography>
-      <CustomImage imgSrc="/Storm2/fishing.png" alt="" height="200px" />
-      <Navigation prev="/storm2/drums" next="/storm2/ixta" />
+      <StratRenderer />
+      <Navigation prev="/storm1/ixta" next="/storm1/hunhau" />
     </>
   );
 };
 
-export default Storm2Fishing;
+export default Storm1Autloc;

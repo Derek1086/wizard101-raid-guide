@@ -4,7 +4,7 @@ import Navigation from "../../../components/Navigation";
 
 import CustomImage from "../../../components/CustomImage";
 
-const Storm2Fishing = () => {
+const Storm1Fishing = () => {
   return (
     <>
       <Header />
@@ -58,16 +58,16 @@ const Storm2Fishing = () => {
           paddingRight: "20%",
         }}
       >
-        Work with Storm Jade, Storm 1, and Storm 3 to catch 4 Storm Fish from
+        Work with Storm Jade, Storm 2, and Storm 3 to catch 4 Storm Fish from
         the ponds displayed below
         <br />
         Coordinate with your team where to deposit the Storm Fish in South,
         North and both West Fish n' Wisps
       </Typography>
       <CustomImage imgSrc="/Storm2/fishing.png" alt="" height="200px" />
-      <Navigation prev="/storm2/drums" next="/storm2/ixta" />
+      <Navigation prev="/storm1/drums" next="/storm1/ixta" />
     </>
   );
 };
 
-export default Storm2Fishing;
+export default Storm1Fishing;

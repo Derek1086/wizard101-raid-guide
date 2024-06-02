@@ -43,7 +43,13 @@ import MythJadeHunhau from "./pages/classes/MythJade/Hunhau";
 import Myth1 from "./pages/classes/Myth1/Myth1";
 import Myth2 from "./pages/classes/Myth2/Myth2";
 import StormJade from "./pages/classes/StormJade/StormJade";
-import Storm1 from "./pages/classes/Storm1/Storm1";
+
+import Storm1 from "./pages/classes/Storm1/Home";
+import Storm1Drums from "./pages/classes/Storm1/Drums";
+import Storm1Fishing from "./pages/classes/Storm1/Fishing";
+import Storm1Ixta from "./pages/classes/Storm1/Ixta";
+import Storm1Autloc from "./pages/classes/Storm1/Autloc";
+import Storm1Hunhau from "./pages/classes/Storm1/Hunhau";
 
 import Storm2 from "./pages/classes/Storm2/Home";
 import Storm2Drums from "./pages/classes/Storm2/Drums";
@@ -121,7 +127,13 @@ function App() {
         <Route path="/myth1" element={<Myth1 />} />
         <Route path="/myth2" element={<Myth2 />} />
         <Route path="/stormjade" element={<StormJade />} />
+        {/* STORM 1 */}
         <Route path="/storm1" element={<Storm1 />} />
+        <Route path="/storm1/drums" element={<Storm1Drums />} />
+        <Route path="/storm1/fishing" element={<Storm1Fishing />} />
+        <Route path="/storm1/ixta" element={<Storm1Ixta />} />
+        <Route path="/storm1/autloc" element={<Storm1Autloc />} />
+        <Route path="/storm1/hunhau" element={<Storm1Hunhau />} />
         {/* STORM 2 */}
         <Route path="/storm2" element={<Storm2 />} />
         <Route path="/storm2/drums" element={<Storm2Drums />} />
