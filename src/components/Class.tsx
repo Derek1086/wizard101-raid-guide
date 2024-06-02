@@ -2,6 +2,7 @@ import React from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
+import CustomImage from "./CustomImage";
 
 type ClassProps = {
   imgSrc: string;
@@ -30,11 +31,7 @@ const Class: React.FC<ClassProps> = ({ imgSrc, title }) => {
           boxShadow: "none",
         }}
       >
-        <img
-          src={imgSrc}
-          alt={title}
-          style={{ width: "55%", height: "auto" }}
-        />
+        <CustomImage imgSrc={imgSrc} alt={title} height="100px" />
       </Button>
       <Typography
         variant="body1"

@@ -10,15 +10,6 @@ const Yetaxa = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h4"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Yetaxa Strats
-      </Typography>
-
       <div>
         <Typography
           variant="h5"

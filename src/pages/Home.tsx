@@ -77,7 +77,7 @@ const Home = () => {
           to={"/supportpuller"}
           style={{ textDecoration: "none", color: "white" }}
         >
-          <Class imgSrc="/Storm-School.gif" title="Support/Puller" />
+          <Class imgSrc="/Life-School.gif" title="Support/Puller" />
         </Link>
       </Box>
       <Typography
@@ -113,6 +113,38 @@ const Home = () => {
         </Link>
         <Link to={"/hunhau"} style={{ textDecoration: "none", color: "white" }}>
           <Class imgSrc="/Hunhau/Hunhau.png" title="Hunhau" />
+        </Link>
+      </Box>
+      <Typography
+        variant="h6"
+        component="div"
+        align="center"
+        sx={{ flexGrow: 1, marginTop: 2 }}
+      >
+        Puzzle/Mob Fight Strats
+      </Typography>
+      <Box
+        sx={{
+          width: "80%",
+          margin: "0 auto",
+          display: "flex",
+          flexWrap: "wrap",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: 2,
+        }}
+      >
+        <Link to={"/north"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/SouthPuzzle/token.png" title="North Token 1 and 2" />
+        </Link>
+        <Link to={"/west"} style={{ textDecoration: "none", color: "white" }}>
+          <Class imgSrc="/WestPuzzle/skull.png" title="West Skull 1 and 2" />
+        </Link>
+        <Link
+          to={"/stupefy"}
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          <Class imgSrc="/MythJade/stupefycard.png" title="Stupefy" />
         </Link>
       </Box>
       <Typography

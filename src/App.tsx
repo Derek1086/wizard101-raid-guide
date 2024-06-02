@@ -8,6 +8,9 @@ import Cameca from "./components/strats/Cameca/Cameca";
 import Ixta from "./components/strats/Ixta/Ixta";
 import Autloc from "./components/strats/Autloc/Autloc";
 import Hunhau from "./components/strats/Hunhau/Hunhau";
+import Stupefy from "./components/strats/Stupefy/Stupefy";
+import WestSkull from "./components/strats/West/WestSkull";
+import NorthTokens from "./components/strats/North/NorthTokens";
 
 import FireJade from "./pages/classes/FireJade/Home";
 import FishingFireIce from "./pages/classes/FireJade/Fishing";
@@ -63,6 +66,9 @@ function App() {
         <Route path="/ixta" element={<Ixta />} />
         <Route path="/autloc" element={<Autloc />} />
         <Route path="/hunhau" element={<Hunhau />} />
+        <Route path="/stupefy" element={<Stupefy />} />
+        <Route path="/west" element={<WestSkull />} />
+        <Route path="/north" element={<NorthTokens />} />
 
         <Route path="/firejade" element={<FireJade />} />
         <Route path="/firejade/fishing" element={<FishingFireIce />} />

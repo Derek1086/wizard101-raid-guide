@@ -3,7 +3,7 @@ import Typography from "@mui/material/Typography";
 import Navigation from "../../../components/Navigation";
 
 import CustomImage from "../../../components/CustomImage";
-import WestSkull2 from "../../../components/strats/WestSkull2";
+import WestSkull2 from "../../../components/strats/West/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
 const Fire2WestSkullFight2 = () => {
