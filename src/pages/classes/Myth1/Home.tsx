@@ -12,12 +12,12 @@ const Myth1 = () => {
         mainSrc="Myth1/main-deck.png"
         itemSrc="Myth1/item-deck.png"
         sideSrc="Myth1/side-deck.png"
-        main="Cleanse Charm, Turmoil Oni, Storm Trap, Elemental Blade"
-        item="Star Blade, Threefold Fever x2"
-        side="None"
+        main="Myth Jinn x2, Myth Trap, Myth Blade, Myth Scion, Spirit Trap, Elemental Trap"
+        item="None"
+        side="Myth Blade, Shatter (3 Shields), Empower, Cleanse Charm, Spirit Shield x4"
         cantrip="Dual Strike 3 (Hunhau)"
       />
-      <Navigation prev="/" next="/storm1/drums" />
+      <Navigation prev="/" next="/myth1/northtokenfight" />
       <a
         href="https://www.twitch.tv/videos/2155969405"
         target="_blank"

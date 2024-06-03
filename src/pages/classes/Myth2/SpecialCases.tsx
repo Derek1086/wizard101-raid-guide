@@ -4,7 +4,6 @@ import Body from "../../../components/Text/Body";
 import Myth2Fishing from "./Fishing";
 import MythStrat from "../../../components/strats/Stupefy/Myth";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
-import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 
 const Myth2SpecialCases = () => {

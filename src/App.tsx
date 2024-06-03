@@ -41,6 +41,11 @@ import MythJadeCameca from "./pages/classes/MythJade/Cameca";
 import MythJadeHunhau from "./pages/classes/MythJade/Hunhau";
 
 import Myth1 from "./pages/classes/Myth1/Home";
+import Myth1NorthTokenFight2 from "./pages/classes/Myth1/NorthTokenFight";
+import Myth1Puzzles from "./pages/classes/Myth1/Puzzles";
+import Myth1Yetaxa from "./pages/classes/Myth1/Yetaxa";
+import Myth1Cameca from "./pages/classes/Myth1/Cameca";
+import Myth1Hunhau from "./pages/classes/Myth1/Hunhau";
 
 import Myth2 from "./pages/classes/Myth2/Home";
 import Myth2NorthTokenFight2 from "./pages/classes/Myth2/NorthTokenFight";
@@ -160,6 +165,14 @@ function App() {
         <Route path="/mythjade/hunhau" element={<MythJadeHunhau />} />
         {/* MYTH 1 */}
         <Route path="/myth1" element={<Myth1 />} />
+        <Route
+          path="/myth1/northtokenfight"
+          element={<Myth1NorthTokenFight2 />}
+        />
+        <Route path="/myth1/puzzles" element={<Myth1Puzzles />} />
+        <Route path="/myth1/yetaxa" element={<Myth1Yetaxa />} />
+        <Route path="/myth1/cameca" element={<Myth1Cameca />} />
+        <Route path="/myth1/hunhau" element={<Myth1Hunhau />} />
         {/* MYTH 2 */}
         <Route path="/myth2" element={<Myth2 />} />
         <Route
