@@ -60,11 +60,11 @@ const Autloc = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Death-school.gif" alt="Death" height="45px" />
+          <img src="/Death-School.gif" alt="Death" height="45px" />
           {"   "}
           OR
           {"    "}
-          <img src="/Ice-school.gif" alt="Ice" height="45px" />
+          <img src="/Ice-School.gif" alt="Ice" height="45px" />
         </div>
         <Body text="Cantrips" />
         <Subtitle text="Storm 4 Cast Donate Power 3" />
@@ -130,11 +130,11 @@ const Autloc = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Death-school.gif" alt="Death" height="45px" />
+          <img src="/Death-School.gif" alt="Death" height="45px" />
           {"   "}
           OR
           {"    "}
-          <img src="/Ice-school.gif" alt="Ice" height="45px" />
+          <img src="/Ice-Ichool.gif" alt="Ice" height="45px" />
         </div>
         <Body text="Cantrips" />
         <Subtitle text="Storm 4 Cast Donate Power 3" />

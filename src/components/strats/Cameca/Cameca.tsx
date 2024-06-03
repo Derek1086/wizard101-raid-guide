@@ -54,7 +54,7 @@ const Cameca = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Life-school.gif" alt="Life" height="45px" />
+          <img src="/Life-School.gif" alt="Life" height="45px" />
         </div>
         <Body text="Cantrips" />
         <Subtitle text="Myth 1 Cast Donate Power 2" />

@@ -59,7 +59,7 @@ const Yetaxa = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Fire-school.gif" alt="Fire" height="45px" />
+          <img src="/Fire-School.gif" alt="Fire" height="45px" />
         </div>
         <Body text="Cantrips" />
         <Subtitle text="Stupefy Round 1" />
@@ -91,7 +91,7 @@ const Yetaxa = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Life-school.gif" alt="Life" height="45px" />
+          <img src="/Life-School.gif" alt="Life" height="45px" />
         </div>
         <Body text="Cantrips" />
         <Subtitle text="Stupefy Round 1" />
