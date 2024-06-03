@@ -16,14 +16,14 @@ const Fire2WestSkullFight2 = () => {
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"
         alt=""
-        height="150px"
+        height="250px"
       />
-      <Body text="Join after Fire Jade pulls Sky Screecher" />
       <CustomImage
         imgSrc="/WestPuzzle/skyscreecher.png"
         alt=""
         height="200px"
       />
+      <Body text="Join after Fire Jade pulls Sky Screecher" />
       <div
         style={{
           display: "flex",

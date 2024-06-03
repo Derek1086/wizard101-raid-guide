@@ -12,7 +12,7 @@ const SouthPulling = () => {
       <Title text="South Pulling" />
       <Body text="Get health from North Fish n' Wisps after defeating Yetaxa" />
       <Body text="Head to the South Fish n' Wisps and deposit the rest of the fish" />
-      <CustomImage imgSrc="/firejade/southpulling.png" alt="" height="200px" />
+      <CustomImage imgSrc="/firejade/southpulling.png" alt="" height="250px" />
       <Body text="South portal opens after Cameca is spawned" />
       <Body text="Wait in the south gate in the dirt pile entrace highlighted above" />
       <Body text="It will either be a Coatl or a Crying Sky Mercenary" />

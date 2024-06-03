@@ -16,7 +16,7 @@ const Fire2Hunhau = () => {
       <Body text="Wait for the Ixta Polymorph and work together to defeat the mobs at the top of the pyramid" />
       <br />
       <Body text="Stand on the North drum at the top of the pyramid" />
-      <CustomImage imgSrc="/Yetaxa/drum.png" alt="" height="150px" />
+      <CustomImage imgSrc="/Yetaxa/drum.png" alt="" height="200px" />
       <Body text="Once Hunhau spawns, let Autloc polymorph pull him" />
       <Body text="Cast Restoring Rain 1 after Myth Jade Cast Restoring Rain 3" />
       <StratRenderer />

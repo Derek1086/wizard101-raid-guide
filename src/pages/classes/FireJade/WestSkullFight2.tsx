@@ -16,7 +16,7 @@ const FireJadeWestSkullFight2 = () => {
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"
         alt=""
-        height="150px"
+        height="250px"
       />
       <CustomImage
         imgSrc="/WestPuzzle/skyscreecher.png"

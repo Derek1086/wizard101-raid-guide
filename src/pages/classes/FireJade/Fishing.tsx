@@ -19,7 +19,7 @@ const FishingFireIce = () => {
       <CustomImage
         imgSrc="/FireJade/fire-ice-fishing.png"
         alt=""
-        height="150px"
+        height="200px"
       />
       <Navigation prev="/firejade" next="/firejade/westskullfight2" />
       <Title text="Raining East?" />

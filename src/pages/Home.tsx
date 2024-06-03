@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import Title from "../components/Text/Title";
+import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 import Class from "../components/Class";
 import Header from "../components/Header";
@@ -12,10 +13,9 @@ const Home = () => {
   return (
     <>
       <Header />
-      <Title text="Choose Role" />
       <Box
         sx={{
-          width: "80%",
+          width: "100%",
           margin: "0 auto",
           display: "flex",
           flexWrap: "wrap",
@@ -24,54 +24,177 @@ const Home = () => {
           padding: "20px",
         }}
       >
-        <Link
-          to={"/firejade"}
-          style={{ textDecoration: "none", color: "white" }}
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "33.3%",
+          }}
         >
-          <Class imgSrc="/Fire-School.gif" title="Fire Jade" />
-        </Link>
-        <Link to={"/fire1"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Fire-School.gif" title="Fire 1" />
-        </Link>
-        <Link to={"/fire2"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Fire-School.gif" title="Fire 2" />
-        </Link>
-        <Link
-          to={"/mythjade"}
-          style={{ textDecoration: "none", color: "white" }}
+          <Typography
+            variant="h5"
+            component="div"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingBottom: "10px",
+              color: "#db5c5c",
+            }}
+          >
+            Fire Team
+          </Typography>
+          <Link
+            to={"/firejade"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Death-School.gif" title="Fire Jade" />
+          </Link>
+          <Link
+            to={"/fire1"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Fire-School.gif" title="Fire 1" />
+          </Link>
+          <Link
+            to={"/fire2"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Fire-School.gif" title="Fire 2" />
+          </Link>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "33.4%",
+          }}
         >
-          <Class imgSrc="/Myth-School.gif" title="Myth Jade" />
-        </Link>
-        <Link to={"/myth1"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Myth-School.gif" title="Myth 1" />
-        </Link>
-        <Link to={"/myth2"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Myth-School.gif" title="Myth 2" />
-        </Link>
-        <Link
-          to={"/stormjade"}
-          style={{ textDecoration: "none", color: "white" }}
+          <Typography
+            variant="h5"
+            component="div"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingBottom: "10px",
+              color: "#cccc00",
+            }}
+          >
+            Myth Team
+          </Typography>
+          <Link
+            to={"/mythjade"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Death-School.gif" title="Myth Jade" />
+          </Link>
+          <Link
+            to={"/myth1"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Myth-School.gif" title="Myth 1" />
+          </Link>
+          <Link
+            to={"/myth2"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Myth-School.gif" title="Myth 2" />
+          </Link>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+            width: "33.3%",
+          }}
         >
-          <Class imgSrc="/Storm-School.gif" title="Storm Jade" />
-        </Link>
-        <Link to={"/storm1"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Storm-School.gif" title="Storm 1" />
-        </Link>
-        <Link to={"/storm2"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Storm-School.gif" title="Storm 2" />
-        </Link>
-        <Link to={"/storm3"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Storm-School.gif" title="Storm 3" />
-        </Link>
-        <Link to={"/storm4"} style={{ textDecoration: "none", color: "white" }}>
-          <Class imgSrc="/Storm-School.gif" title="Storm 4" />
-        </Link>
-        <Link
-          to={"/supportpuller"}
-          style={{ textDecoration: "none", color: "white" }}
+          <Typography
+            variant="h5"
+            component="div"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingBottom: "10px",
+              color: "#b641e0",
+            }}
+          >
+            Storm Team 2
+          </Typography>
+          <Link
+            to={"/storm4"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Storm-School.gif" title="Storm 4" />
+          </Link>
+          <Link
+            to={"/supportpuller"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Life-School.gif" title="Support/Puller" />
+          </Link>
+        </Box>
+        <Box
+          sx={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
         >
-          <Class imgSrc="/Life-School.gif" title="Support/Puller" />
-        </Link>
+          <Typography
+            variant="h5"
+            component="div"
+            align="center"
+            sx={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+              paddingBottom: "10px",
+              color: "#b641e0",
+            }}
+          >
+            Storm Team 1
+          </Typography>
+          <Link
+            to={"/stormjade"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Balance-School.gif" title="Storm Jade" />
+          </Link>
+          <Link
+            to={"/storm1"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Storm-School.gif" title="Storm 1" />
+          </Link>
+          <Link
+            to={"/storm2"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Storm-School.gif" title="Storm 2" />
+          </Link>
+          <Link
+            to={"/storm3"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Storm-School.gif" title="Storm 3" />
+          </Link>
+        </Box>
       </Box>
       <Title text="Boss Strats" />
       <Box

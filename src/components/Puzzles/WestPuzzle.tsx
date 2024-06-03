@@ -6,8 +6,7 @@ const WestPuzzle = () => {
   return (
     <>
       <Title text="West Puzzle" />
-      <Body text="Head West and find Cacao Pod's (you can only hold one at a time)" />
-      <Body text="Every time you pick up one, deposit it in the pod collector on the West base of the pyramid" />
+      <Body text="Collect and deposit Pods in the West" />
       <div
         style={{
           width: "100%",

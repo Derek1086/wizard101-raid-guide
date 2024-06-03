@@ -60,7 +60,6 @@ const DeckSetup: React.FC<ClassProps> = ({
       </div>
       <div
         style={{
-          width: "100%",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",

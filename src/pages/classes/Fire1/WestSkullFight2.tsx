@@ -27,9 +27,9 @@ const Fire1WestSkullFight2 = () => {
         <CustomImage
           imgSrc="/WestPuzzle/westskullfight.png"
           alt=""
-          height="150px"
+          height="200px"
         />
-        <CustomImage imgSrc="/WestPuzzle/deathpond.png" alt="" height="150px" />
+        <CustomImage imgSrc="/WestPuzzle/deathpond.png" alt="" height="200px" />
       </div>
       <Body text="Join after Fire Jade pulls Sky Screecher" />
       <CustomImage

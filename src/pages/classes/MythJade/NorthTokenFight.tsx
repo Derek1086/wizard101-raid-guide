@@ -26,7 +26,7 @@ const NorthTokenFight = () => {
         </div>
       </div>
       <Body text="Watch in chat for call of Stupefy East Mob's school by drums team (IF SCHOOL IS LIFE OR FIRE MYTH TEAM CANNOT DO STUPEFY)" />
-      <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="150px" />
+      <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="200px" />
       <Navigation prev="/mythjade" next="/mythjade/specialcases" />
       <Title text="Raining North?" />
       <MythJadeFishing />

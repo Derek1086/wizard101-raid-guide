@@ -1,8 +1,7 @@
 import Header from "../../../components/Header";
 import Navigation from "../../../components/Navigation";
-
+import Title from "../../../components/Text/Title";
 import DeckSetup from "../../../components/Setups/DeckSetup";
-import RecStats from "../../../components/Setups/RecStats";
 import PetReqs from "../../../components/Setups/PetRequirements";
 
 const Fire2 = () => {
@@ -19,16 +18,30 @@ const Fire2 = () => {
         side="Top Path Helephant, Top Path Immolate x2, Top Path Phoenix, Myth Trap"
         cantrip="Donate Power 3 (Yetaxa), Restoring Rain 1 (Hunhau)"
       />
-      <RecStats
-        title="Fire 2"
-        stats="195% Fire Damage, 68% Fire Pierce, 30% Fire Accuracy, 100% Pip Chance"
-      />
       <PetReqs
         title="Fire 2"
         stats="Bernie's Omen"
         imgSrc="/Fire2/pet-talent.png"
       />
       <Navigation prev="/" next="/fire2/drums" />
+      <Title text="Fire 2 POV" />
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
+      >
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/ThRX6GNYa2o?si=ZIC3vGY-WFBM-hx8"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        />
+      </div>
     </>
   );
 };

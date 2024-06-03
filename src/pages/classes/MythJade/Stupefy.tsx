@@ -23,9 +23,9 @@ const MythJadeStupefy = () => {
         <CustomImage
           imgSrc="/WestPuzzle/westskullfight.png"
           alt=""
-          height="150px"
+          height="200px"
         />
-        <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="150px" />
+        <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="200px" />
       </div>
       <Body text="When Fire team is ready for Yetaxa, call out to Fire Jade to 'Spawn Yetaxa' and enter the Stupefy fight" />
       <Body text="On hitting round of Stupefy, let Fire Jade know so they can get ready to pull the fight" />

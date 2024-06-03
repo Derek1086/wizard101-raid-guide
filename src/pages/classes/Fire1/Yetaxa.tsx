@@ -12,7 +12,7 @@ const Fire1Yetaxa = () => {
       <Title text="Yetaxa Boss Fight" />
       <Body text="Head North and work with Fire Jade and Fire 2 to deposit Death fish in North, South, and both West Fish n' Wisps" />
       <Body text="Head to the top/side of the pyramid" />
-      <CustomImage imgSrc="/Yetaxa/top.png" alt="" height="150px" />
+      <CustomImage imgSrc="/Yetaxa/top.png" alt="" height="200px" />
       <Body text="Wait for the Fire Jade to pull the fight, then join right after the Fire Jade. If it is a strat that requires you to cast Donate Power 1, cast it first, then join the fight" />
       <StratRenderer />
       <Navigation prev="/fire1/westskullfight2" next="/fire1/cameca" />

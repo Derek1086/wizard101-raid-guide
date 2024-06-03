@@ -1,9 +1,7 @@
 import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Navigation from "../../../components/Navigation";
-
 import DeckSetup from "../../../components/Setups/DeckSetup";
-import RecStats from "../../../components/Setups/RecStats";
 
 const FireJade = () => {
   return (
@@ -18,10 +16,6 @@ const FireJade = () => {
         item="Pet Fuel, IC Bladestorm, Wyldfire Ruby (+35%)"
         side="Bottom Path Immolate x2, Shatter (3 Shields) x2, Donate Power x2, Spirit Blade"
         cantrip="None"
-      />
-      <RecStats
-        title="Fire Jade"
-        stats="High Universal Resist, High Health, 100% Pip Chance, Fire Mastery, 25% Fire Accuracy, High Fire/Ice Resist"
       />
       <Navigation prev="/" next="/firejade/fishing" />
       <Title text="Fire Jade POV" />

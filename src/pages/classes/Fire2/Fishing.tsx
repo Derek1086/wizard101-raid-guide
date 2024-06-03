@@ -15,7 +15,7 @@ const FishingFireIce2 = () => {
       <CustomImage
         imgSrc="/FireJade/fire-ice-fishing.png"
         alt=""
-        height="150px"
+        height="200px"
       />
       <Navigation prev="/fire2/drums" next="/fire2/westskullfight2" />
     </>

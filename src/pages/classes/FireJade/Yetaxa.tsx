@@ -11,7 +11,7 @@ const FireJadeYetaxa = () => {
       <Header />
       <Title text="Yetaxa Boss Fight" />
       <Body text="Head North and coordinate with Fire 1 and Fire 2 to deposit all Death fish in North, South, and both West Fish n' Wisps" />
-      <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="150px" />
+      <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="200px" />
       <Body text="Ensure all North tokens are set correctly" />
       <Body text="Head to the drum in the middle, and wait for stupefy team to call out when to spawn Yetaxa" />
       <Body text="Head to the back of North IF IT ISNT RAINING NORTH and check what mob spawned" />
