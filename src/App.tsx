@@ -151,8 +151,9 @@ function App() {
         <Route path="/mythjade/puzzles" element={<MythJadePuzzles />} />
         <Route path="/mythjade/cameca" element={<MythJadeCameca />} />
         <Route path="/mythjade/hunhau" element={<MythJadeHunhau />} />
-
+        {/* MYTH 1 */}
         <Route path="/myth1" element={<Myth1 />} />
+        {/* MYTH 2 */}
         <Route path="/myth2" element={<Myth2 />} />
         {/* STORM JADE */}
         <Route path="/stormjade" element={<StormJade />} />
