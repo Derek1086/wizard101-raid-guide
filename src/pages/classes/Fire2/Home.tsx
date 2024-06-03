@@ -1,9 +1,9 @@
 import Header from "../../../components/Header";
 import Navigation from "../../../components/Navigation";
 
-import DeckSetup from "../../../components/DeckSetup";
-import RecStats from "../../../components/RecStats";
-import PetReqs from "../../../components/PetRequirements";
+import DeckSetup from "../../../components/Setups/DeckSetup";
+import RecStats from "../../../components/Setups/RecStats";
+import PetReqs from "../../../components/Setups/PetRequirements";
 
 const Fire2 = () => {
   return (

@@ -1,22 +1,9 @@
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
 
 const FightPov = () => {
   return (
     <>
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Hunhau Fight POV
-      </Typography>
+      <Title text="Hunhau Fight POV" />
       <div
         style={{
           width: "100%",

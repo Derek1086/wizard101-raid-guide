@@ -1,4 +1,6 @@
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 import { useState } from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -20,20 +22,7 @@ const StratRender = () => {
   };
   return (
     <>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Choose minion schools
-      </Typography>
+      <Title text="Choose minion school(s)" />
       <div
         style={{
           display: "flex",
@@ -70,6 +59,7 @@ const StratRender = () => {
               AND
               {"    "}
               <img src="/Death-School.gif" alt="Death" height="25px" />
+              /
               <img src="/Storm-School.gif" alt="Storm" height="25px" />
               {"   "}
               ANY TRUE MYTHS
@@ -86,6 +76,7 @@ const StratRender = () => {
               AND
               {"    "}
               <img src="/Death-School.gif" alt="Death" height="25px" />
+              /
               <img src="/Storm-School.gif" alt="Storm" height="25px" />
               {"   "}
               ANY TRUE MYTHS
@@ -96,34 +87,8 @@ const StratRender = () => {
 
       {strat !== "" && strat === "Strat 1" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            Myth 1 or Myth 2 Cast Donate Power 2
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="Myth 1 or Myth 2 Cast Donate Power 2" />
           <div
             style={{
               display: "flex",
@@ -141,35 +106,9 @@ const StratRender = () => {
       )}
       {strat !== "" && strat === "Strat 2" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            Myth 1 Cast Donate Power 2<br />
-            Myth 2 Cast Donate Power 2
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="Myth 1 Cast Donate Power 2" />
+          <Subtitle text="Myth 2 Cast Donate Power 2" />
           <div
             style={{
               display: "flex",
@@ -187,35 +126,9 @@ const StratRender = () => {
       )}
       {strat !== "" && strat === "Strat 3" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            IF USING FYTH'S IGNORE <br />
-            Myth 1 or Myth 2 Cast Donate Power 2
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="IF USING FYTH'S IGNORE" />
+          <Subtitle text="Myth 1 or Myth 2 Cast Donate Power 2" />
           <div
             style={{
               display: "flex",
@@ -233,35 +146,9 @@ const StratRender = () => {
       )}
       {strat !== "" && strat === "Strat 4" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            IF USING FYTH'S IGNORE <br />
-            Myth 1 or Myth 2 Cast Donate Power 2
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="IF USING FYTH'S IGNORE" />
+          <Subtitle text="Myth 1 or Myth 2 Cast Donate Power 2" />
           <div
             style={{
               display: "flex",

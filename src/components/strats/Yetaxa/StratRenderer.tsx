@@ -1,4 +1,6 @@
-import Typography from "@mui/material/Typography";
+import Title from "../../../components/Text/Title";
+import Body from "../../../components/Text/Body";
+import Subtitle from "../../Text/Subtitle";
 import { useState } from "react";
 import InputLabel from "@mui/material/InputLabel";
 import MenuItem from "@mui/material/MenuItem";
@@ -21,20 +23,7 @@ const StratRenderer = () => {
 
   return (
     <>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Choose minion schools
-      </Typography>
+      <Title text="Choose minion school(s)" />
       <div
         style={{
           display: "flex",
@@ -86,35 +75,9 @@ const StratRenderer = () => {
       </div>
       {strat !== "" && strat === "Strat 1" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="Stupefy Round 1" />
+          <Subtitle text="Fire 2 Cast Donate Power 3" />
           <div
             style={{
               display: "flex",
@@ -132,36 +95,10 @@ const StratRenderer = () => {
       )}
       {strat !== "" && strat === "Strat 2" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 1 Cast Donate Power 1<br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="Stupefy Round 1" />
+          <Subtitle text="Fire 1 Cast Donate Power 1" />
+          <Subtitle text="Fire 2 Cast Donate Power 3" />
           <div
             style={{
               display: "flex",
@@ -179,35 +116,9 @@ const StratRenderer = () => {
       )}
       {strat !== "" && strat === "Strat 3" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="Stupefy Round 1" />
+          <Subtitle text="Fire 2 Cast Donate Power 3" />
           <div
             style={{
               display: "flex",
@@ -225,35 +136,9 @@ const StratRenderer = () => {
       )}
       {strat !== "" && strat === "Strat 4" && (
         <>
-          <Typography
-            variant="h6"
-            component="div"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            Cantrips
-          </Typography>
-          <Typography
-            variant="body1"
-            component="div"
-            color="text.secondary"
-            align="center"
-            sx={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              padding: "10px",
-            }}
-          >
-            Stupefy Round 1 <br />
-            Fire 2 Cast Donate Power 3
-          </Typography>
+          <Body text="Cantrips" />
+          <Subtitle text="Stupefy Round 1" />
+          <Subtitle text="Fire 2 Cast Donate Power 3" />
           <div
             style={{
               display: "flex",

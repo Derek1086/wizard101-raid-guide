@@ -1,5 +1,7 @@
 import Header from "../../Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 
 import YetaxaStrat1 from "./Strat1";
 import YetaxaStrat2 from "./Strat2";
@@ -10,23 +12,9 @@ const Yetaxa = () => {
   return (
     <>
       <Header />
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Yetaxa Strat 1
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Yetaxa Strat 1" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -42,36 +30,9 @@ const Yetaxa = () => {
           {"    "}
           <img src="/NotLife.png" alt="NotLife" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Stupefy Round 1 <br />
-          Fire 2 Cast Donate Power 3
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Stupefy Round 1" />
+        <Subtitle text="Fire 2 Cast Donate Power 3" />
         <div
           style={{
             display: "flex",
@@ -86,23 +47,9 @@ const Yetaxa = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Yetaxa Strat 2
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Yetaxa Strat 2" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -114,37 +61,10 @@ const Yetaxa = () => {
         >
           <img src="/Fire-school.gif" alt="Fire" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Stupefy Round 1 <br />
-          Fire 1 Cast Donate Power 1<br />
-          Fire 2 Cast Donate Power 3
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Stupefy Round 1" />
+        <Subtitle text="Fire 1 Cast Donate Power 1" />
+        <Subtitle text="Fire 2 Cast Donate Power 3" />
         <div
           style={{
             display: "flex",
@@ -159,23 +79,9 @@ const Yetaxa = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Yetaxa Strat 3
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Yetaxa Strat 3" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -187,36 +93,9 @@ const Yetaxa = () => {
         >
           <img src="/Life-school.gif" alt="Life" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Stupefy Round 1 <br />
-          Fire 2 Cast Donate Power 3
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Stupefy Round 1" />
+        <Subtitle text="Fire 2 Cast Donate Power 3" />
         <div
           style={{
             display: "flex",
@@ -231,23 +110,9 @@ const Yetaxa = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Yetaxa Strat 4
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Yetaxa Strat 4" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -265,36 +130,9 @@ const Yetaxa = () => {
           <img src="/Myth-School.gif" alt="Myth" height="45px" />
           <img src="/Life-School.gif" alt="Life" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Stupefy Round 1 <br />
-          Fire 2 Cast Donate Power 3
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Stupefy Round 1" />
+        <Subtitle text="Fire 2 Cast Donate Power 3" />
         <div
           style={{
             display: "flex",

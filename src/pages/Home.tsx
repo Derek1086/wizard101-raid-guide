@@ -1,25 +1,18 @@
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
+import Title from "../components/Text/Title";
 import { Link } from "react-router-dom";
-
 import Class from "../components/Class";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import BuffTable from "../components/BuffTable";
 import StatTable from "../components/StatTable";
+import CustomImage from "../components/CustomImage";
 
 const Home = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Choose your role
-      </Typography>
+      <Title text="Choose Role" />
       <Box
         sx={{
           width: "80%",
@@ -28,7 +21,7 @@ const Home = () => {
           flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: 2,
+          padding: "20px",
         }}
       >
         <Link
@@ -80,14 +73,7 @@ const Home = () => {
           <Class imgSrc="/Life-School.gif" title="Support/Puller" />
         </Link>
       </Box>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Boss Strats
-      </Typography>
+      <Title text="Boss Strats" />
       <Box
         sx={{
           width: "80%",
@@ -96,7 +82,7 @@ const Home = () => {
           flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: 2,
+          padding: "20px",
         }}
       >
         <Link to={"/yetaxa"} style={{ textDecoration: "none", color: "white" }}>
@@ -115,14 +101,7 @@ const Home = () => {
           <Class imgSrc="/Hunhau/Hunhau.png" title="Hunhau" />
         </Link>
       </Box>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Puzzle/Mob Fight Strats
-      </Typography>
+      <Title text="Puzzle/Mob Fight Strats" />
       <Box
         sx={{
           width: "80%",
@@ -131,7 +110,7 @@ const Home = () => {
           flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "center",
-          marginTop: 2,
+          padding: "20px",
         }}
       >
         <Link to={"/north"} style={{ textDecoration: "none", color: "white" }}>
@@ -147,34 +126,17 @@ const Home = () => {
           <Class imgSrc="/MythJade/stupefycard.png" title="Stupefy" />
         </Link>
       </Box>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Roshambo
-      </Typography>
+      <Title text="Roshambo" />
       <div>
-        <div
-          style={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            alignContent: "center",
-            marginTop: "10px",
-            marginBottom: "20px",
-          }}
-        >
-          <img src="/roshambo.png" alt="" height={"200px"} />
-        </div>
+        <CustomImage imgSrc="/roshambo.png" alt="" height="200px" />
+        <Title text="Buffs" />
         <div
           style={{
             width: "100%",
             display: "flex",
             justifyContent: "center",
             alignContent: "center",
+            marginTop: "20px",
             marginBottom: "50px",
           }}
         >
@@ -186,14 +148,7 @@ const Home = () => {
             <BuffTable />
           </div>
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Stat Caps
-        </Typography>
+        <Title text="Stat Caps" />
         <div
           style={{
             width: "100%",

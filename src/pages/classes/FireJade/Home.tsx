@@ -1,9 +1,9 @@
 import Header from "../../../components/Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../../components/Text/Title";
 import Navigation from "../../../components/Navigation";
 
-import DeckSetup from "../../../components/DeckSetup";
-import RecStats from "../../../components/RecStats";
+import DeckSetup from "../../../components/Setups/DeckSetup";
+import RecStats from "../../../components/Setups/RecStats";
 
 const FireJade = () => {
   return (
@@ -24,20 +24,7 @@ const FireJade = () => {
         stats="High Universal Resist, High Health, 100% Pip Chance, Fire Mastery, 25% Fire Accuracy, High Fire/Ice Resist"
       />
       <Navigation prev="/" next="/firejade/fishing" />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Fire Jade POV
-      </Typography>
+      <Title text="Fire Jade POV" />
       <div
         style={{
           width: "100%",
@@ -45,7 +32,6 @@ const FireJade = () => {
           justifyContent: "center",
           alignItems: "center",
           padding: "20px",
-          gap: "20px",
         }}
       >
         <iframe

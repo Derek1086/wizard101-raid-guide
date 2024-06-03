@@ -1,5 +1,7 @@
 import Header from "../../Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 
 import CamecaStrat1 from "./Strat1";
 import CamecaStrat2 from "./Strat2";
@@ -10,23 +12,9 @@ const Cameca = () => {
   return (
     <>
       <Header />
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Cameca Strat 1
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Cameca Strat 1" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -38,35 +26,8 @@ const Cameca = () => {
         >
           <img src="/NotLife.png" alt="NotLife" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Myth 1 or Myth 2 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Myth 1 or Myth 2 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",
@@ -81,23 +42,9 @@ const Cameca = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Cameca Strat 2
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Cameca Strat 2" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -109,36 +56,9 @@ const Cameca = () => {
         >
           <img src="/Life-school.gif" alt="Life" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Myth 1 Cast Donate Power 2<br />
-          Myth 2 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Myth 1 Cast Donate Power 2" />
+        <Subtitle text="Myth 2 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",
@@ -153,23 +73,9 @@ const Cameca = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Cameca Strat 3
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Cameca Strat 3" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -184,37 +90,11 @@ const Cameca = () => {
           AND
           {"    "}
           <img src="/Death-School.gif" alt="Death" height="45px" />
+          /
           <img src="/Storm-School.gif" alt="Storm" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Myth 1 or Myth 2 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Myth 1 or Myth 2 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",
@@ -229,23 +109,9 @@ const Cameca = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Cameca Strat 4
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Cameca Strat 4" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -260,37 +126,11 @@ const Cameca = () => {
           AND
           {"    "}
           <img src="/Death-School.gif" alt="Death" height="45px" />
+          /
           <img src="/Storm-School.gif" alt="Storm" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Myth 1 or Myth 2 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Myth 1 or Myth 2 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",

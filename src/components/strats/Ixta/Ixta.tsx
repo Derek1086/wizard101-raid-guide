@@ -1,5 +1,7 @@
 import Header from "../../Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 
 import IxtaStrat1 from "./Strat1";
 import IxtaStrat2 from "./Strat2";
@@ -11,23 +13,9 @@ const Ixta = () => {
   return (
     <>
       <Header />
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Ixta Strat 1
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Ixta Strat 1" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -39,35 +27,8 @@ const Ixta = () => {
         >
           <img src="/NotDeath.png" alt="NotDeath" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 1 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 1 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",
@@ -82,23 +43,10 @@ const Ixta = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Ixta Strat 2
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Ixta Strat 2" />
+        <Body text="Minion School(s)" />
+
         <div
           style={{
             display: "flex",
@@ -108,38 +56,11 @@ const Ixta = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Death-School.gif" alt="Death" height="45px" />
+          <img src="/Death-school.gif" alt="Death" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Stupefy Round 1 <br />
-          Storm 1 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Stupefy Round 1" />
+        <Subtitle text="Storm 1 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",
@@ -154,23 +75,9 @@ const Ixta = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Ixta Strat 3
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Ixta Strat 3" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -188,36 +95,9 @@ const Ixta = () => {
           <img src="/Death-School.gif" alt="Death" height="45px" />
           <img src="/Life-School.gif" alt="Life" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Stupefy Round 1 <br />
-          Storm 3 Cast Donate Power 3
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Stupefy Round 1" />
+        <Subtitle text="Storm 3 Cast Donate Power 3" />
         <div
           style={{
             display: "flex",
@@ -232,23 +112,9 @@ const Ixta = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Ixta Oni Strat 1
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Ixta Oni Strat 1" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -259,38 +125,9 @@ const Ixta = () => {
           }}
         >
           <img src="/NotDeath.png" alt="NotDeath" height="45px" />
-          {"   "}
-          GOATLING PETS
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 1 Cast Donate Power 2
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 1 Cast Donate Power 2" />
         <div
           style={{
             display: "flex",
@@ -305,24 +142,9 @@ const Ixta = () => {
           </div>
         </div>
       </div>
-
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Ixta Oni Strat 2
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Ixta Oni Strat 2" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -333,39 +155,10 @@ const Ixta = () => {
           }}
         >
           <img src="/Death-School.gif" alt="Death" height="45px" />
-          {"   "}
-          GOATLING PETS
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 3 Cast Donate Power 3<br />
-          Storm 1 Cast Donate Power 1
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 3 Cast Donate Power 3" />
+        <Subtitle text="Storm 1 Cast Donate Power 1" />
         <div
           style={{
             display: "flex",

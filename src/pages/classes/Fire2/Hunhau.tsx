@@ -1,5 +1,6 @@
 import Header from "../../../components/Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../../components/Text/Title";
+import Body from "../../../components/Text/Body";
 import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 import FightPov from "../../../components/strats/Hunhau/FightPov";
@@ -9,83 +10,18 @@ const Fire2Hunhau = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-        }}
-      >
-        Yetaxa Polymorph
-      </Typography>
-      <CustomImage imgSrc="/Yetaxa/yetaxa-profile.png" alt="" height="300px" />
-      <Typography
-        variant="body1"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-          paddingBottom: "20px",
-          paddingLeft: "20%",
-          paddingRight: "20%",
-        }}
-      >
-        After defeating Yetaxa, a shrine will spawn in the middle of the ring.
-        Press X on the shrine to polymorph into Yetaxa. You will gain full
-        health and mana
-        <br />
-        Wait for the Ixta Polymorph and work together to defeat the mobs at the
-        top of the pyramid while waiting for the other boss fights to finsih
-      </Typography>
-      <Typography
-        variant="body1"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-          paddingBottom: "20px",
-        }}
-      >
-        To summon Hunhau, you will need to stand on the North drum at the top of
-        the pyramid.
-      </Typography>
-      <CustomImage imgSrc="/Yetaxa/drum.png" alt="" height="200px" />
-      <Typography
-        variant="body1"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-          paddingBottom: "20px",
-        }}
-      >
-        Once all polymorphs are on their respective sigil, Hunhau will spawn.
-        Autloc polymorph will pull and the rest will stagger join to cast
-        cantrips
-      </Typography>
+      <Title text="Hunhau Boss Fight" />
+      <CustomImage imgSrc="/Yetaxa/yetaxa-profile.png" alt="" height="200px" />
+      <Body text="Press X on the shrine in the middle to polymorph into Yetaxa. You will gain full health and mana" />
+      <Body text="Wait for the Ixta Polymorph and work together to defeat the mobs at the top of the pyramid" />
+      <br />
+      <Body text="Stand on the North drum at the top of the pyramid" />
+      <CustomImage imgSrc="/Yetaxa/drum.png" alt="" height="150px" />
+      <Body text="Once Hunhau spawns, let Autloc polymorph pull him" />
+      <Body text="Cast Restoring Rain 1 after Myth Jade Cast Restoring Rain 3" />
       <StratRenderer />
-      <FightPov />
       <Navigation prev="/fire2/yetaxa" next="/" />
+      <FightPov />
     </>
   );
 };

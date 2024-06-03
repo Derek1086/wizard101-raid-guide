@@ -1,5 +1,6 @@
 import Header from "../../../components/Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../../components/Text/Title";
+import Body from "../../../components/Text/Body";
 import Navigation from "../../../components/Navigation";
 import CustomImage from "../../../components/CustomImage";
 import StratRenderer from "../../../components/strats/Yetaxa/StratRenderer";
@@ -8,61 +9,13 @@ const FireJadeYetaxa = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-        }}
-      >
-        Yetaxa Boss Fight
-      </Typography>
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Head North and work with Fire 1 and Fire 2 to deposit all Death fish in
-        North, South, and both West Fish n' Wisps.
-      </Typography>
-      <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="200px" />
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-          paddingBottom: "20px",
-          paddingLeft: "20%",
-          paddingRight: "20%",
-        }}
-      >
-        Ensure all North tokens are set correctly to spawn Yetaxa
-        <br />
-        Head to the drum in the middle, and wait for stupefy team to call out
-        when to spawn Yetaxa. After spawning, head to the back of North IF IT
-        ISNT RAINING NORTH and check what mob spawned, Coatl (fast) or Sky Crier
-        (slow). If Coatl, let it pass to the top of pyramid before starting
-        Yetaxa
-      </Typography>
+      <Title text="Yetaxa Boss Fight" />
+      <Body text="Head North and coordinate with Fire 1 and Fire 2 to deposit all Death fish in North, South, and both West Fish n' Wisps" />
+      <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="150px" />
+      <Body text="Ensure all North tokens are set correctly" />
+      <Body text="Head to the drum in the middle, and wait for stupefy team to call out when to spawn Yetaxa" />
+      <Body text="Head to the back of North IF IT ISNT RAINING NORTH and check what mob spawned" />
+      <Body text="It will either be a Coatl (fast) or Sky Crier (slow)" />
       <div
         style={{
           width: "100%",
@@ -72,25 +25,11 @@ const FireJadeYetaxa = () => {
           padding: "20px",
         }}
       >
-        <CustomImage imgSrc="/Yetaxa/coatl.png" alt="" height="200px" />
-        <CustomImage imgSrc="/Yetaxa/skycrier.png" alt="" height="200px" />
+        <CustomImage imgSrc="/Yetaxa/coatl.png" alt="" height="150px" />
+        <CustomImage imgSrc="/Yetaxa/skycrier.png" alt="" height="150px" />
       </div>
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Wait with fire team and wait for stupefy team to call when to pull.
-        <br /> When they call to pull, pull the minion first
-      </Typography>
+      <Body text="If Coatl, let it pass to the top of pyramid before starting Yetaxa" />
+      <Body text="When Stupefy team calls to pull, pull the minion first" />
       <StratRenderer />
       <Navigation
         prev="/firejade/westskullfight2"

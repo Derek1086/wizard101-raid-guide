@@ -1,5 +1,7 @@
 import Header from "../../Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 
 import AutlocStrat1 from "./Strat1";
 import AutlocStrat2 from "./Strat2";
@@ -10,23 +12,9 @@ const Autloc = () => {
   return (
     <>
       <Header />
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Autloc Strat 1
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Autloc  Strat 1" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -42,37 +30,10 @@ const Autloc = () => {
           {"    "}
           <img src="/NotIce.png" alt="NotIce" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 4 Cast Donate Power 2<br />
-          Storm 1 Cast Restoring Rain 1<br />
-          Plague if = Storm
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 4 Cast Donate Power 2" />
+        <Subtitle text="Storm 1 Cast Restoring Rain 1" />
+        <Subtitle text="Plague if = Storm" />
         <div
           style={{
             display: "flex",
@@ -87,23 +48,9 @@ const Autloc = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Autloc Strat 2
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Autloc Strat 2" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -113,43 +60,15 @@ const Autloc = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Death-School.gif" alt="Death" height="45px" />
+          <img src="/Death-school.gif" alt="Death" height="45px" />
           {"   "}
           OR
           {"    "}
           <img src="/Ice-school.gif" alt="Ice" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 4 Cast Donate Power 3<br />
-          Storm 1 Cast Dual Strike 2<br />
-          Storm 2 Cast Dual Strike 1
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 4 Cast Donate Power 3" />
+        <Subtitle text="Storm 1 Cast Dual Strike 2" />
         <div
           style={{
             display: "flex",
@@ -164,23 +83,9 @@ const Autloc = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Autloc Oni Strat 1
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Autloc Oni Strat 1" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -196,36 +101,9 @@ const Autloc = () => {
           {"    "}
           <img src="/NotIce.png" alt="NotIce" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 4 Cast Donate Power 2<br />
-          Storm 1 Cast Restoring Rain 1
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 4 Cast Donate Power 2" />
+        <Subtitle text="Storm 1 Cast Restoring Rain 1" />
         <div
           style={{
             display: "flex",
@@ -240,23 +118,9 @@ const Autloc = () => {
           </div>
         </div>
       </div>
-      <div>
-        <Typography
-          variant="h5"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Autloc Oni Strat 2
-        </Typography>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{ flexGrow: 1, marginTop: 2 }}
-        >
-          Minion School(s)
-        </Typography>
+      <div style={{ marginTop: "20px" }}>
+        <Title text="Autloc Oni Strat 2" />
+        <Body text="Minion School(s)" />
         <div
           style={{
             display: "flex",
@@ -266,43 +130,16 @@ const Autloc = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Death-School.gif" alt="Death" height="45px" />
+          <img src="/Death-school.gif" alt="Death" height="45px" />
           {"   "}
           OR
           {"    "}
           <img src="/Ice-school.gif" alt="Ice" height="45px" />
         </div>
-        <Typography
-          variant="h6"
-          component="div"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingTop: "20px",
-          }}
-        >
-          Cantrips
-        </Typography>
-        <Typography
-          variant="body1"
-          component="div"
-          color="text.secondary"
-          align="center"
-          sx={{
-            width: "100%",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            paddingBottom: "20px",
-          }}
-        >
-          Storm 4 Cast Donate Power 3<br />
-          Storm 1 Cast Dual Strike 2<br />
-          Storm 2 Cast Dual Strike 1
-        </Typography>
+        <Body text="Cantrips" />
+        <Subtitle text="Storm 4 Cast Donate Power 3" />
+        <Subtitle text="Storm 1 Cast Dual Strike 2" />
+        <Subtitle text="Storm 2 Cast Dual Strike 1" />
         <div
           style={{
             display: "flex",

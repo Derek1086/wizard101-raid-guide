@@ -1,5 +1,6 @@
 import Header from "../../../components/Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../../components/Text/Title";
+import Body from "../../../components/Text/Body";
 import Navigation from "../../../components/Navigation";
 
 import CustomImage from "../../../components/CustomImage";
@@ -10,60 +11,31 @@ const Fire1WestSkullFight2 = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-        }}
-      >
-        West Skull Fight 2
-      </Typography>
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        Head West to Skull 2 Fight, try to fish for 4 Death fish until fire Jade
-        and Fire 2 arrives
-      </Typography>
-      <CustomImage
-        imgSrc="/WestPuzzle/westskullfight.png"
-        alt=""
-        height="150px"
+      <Title text="West Skull Fight 2" />
+      <Body
+        text="Head West to Skull 2 Fight, try to fish for 4 Death fish until fire Jade
+        and Fire 2 arrives"
       />
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
+      <div
+        style={{
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          gap: "20px",
         }}
       >
-        Let Fire Jade pull Sky Screecher, then join
-      </Typography>
+        <CustomImage
+          imgSrc="/WestPuzzle/westskullfight.png"
+          alt=""
+          height="150px"
+        />
+        <CustomImage imgSrc="/WestPuzzle/deathpond.png" alt="" height="150px" />
+      </div>
+      <Body text="Join after Fire Jade pulls Sky Screecher" />
       <CustomImage
         imgSrc="/WestPuzzle/skyscreecher.png"
         alt=""
-        height="250px"
+        height="200px"
       />
       <div
         style={{
@@ -78,40 +50,9 @@ const Fire1WestSkullFight2 = () => {
           <WestSkull2 />
         </div>
       </div>
-      <Typography
-        variant="h6"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-          paddingBottom: "20px",
-          paddingLeft: "20%",
-          paddingRight: "20%",
-        }}
-      >
-        After defeating Sky Screecher, go to the death pond and work with Fire
-        Jade and Fire 2 to collect the rest of the 4 Death fish if needed
-      </Typography>
+      <Body text="Go to the death pond and work with Fire Jade and Fire 2 to collect the rest of the 4 Death fish if needed" />
       <Navigation prev="/fire1/drums" next="/fire1/yetaxa" />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-        }}
-      >
-        Raining West?
-      </Typography>
+      <Title text="Raining West?" />
       <SouthPuzzle />
     </>
   );
