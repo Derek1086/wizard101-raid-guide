@@ -135,16 +135,16 @@ const Home = () => {
             Storm Team 2
           </Typography>
           <Link
-            to={"/storm4"}
-            style={{ textDecoration: "none", color: "white" }}
-          >
-            <Class imgSrc="/Storm-School.gif" title="Storm 4" />
-          </Link>
-          <Link
             to={"/supportpuller"}
             style={{ textDecoration: "none", color: "white" }}
           >
             <Class imgSrc="/Life-School.gif" title="Support/Puller" />
+          </Link>
+          <Link
+            to={"/storm4"}
+            style={{ textDecoration: "none", color: "white" }}
+          >
+            <Class imgSrc="/Storm-School.gif" title="Storm 4" />
           </Link>
         </Box>
         <Box

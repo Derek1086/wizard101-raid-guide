@@ -2,22 +2,11 @@ import Header from "../../../components/Header";
 import Navigation from "../../../components/Navigation";
 import PetReqs from "../../../components/Setups/PetRequirements";
 import DeckSetup from "../../../components/Setups/DeckSetup";
-import RecStats from "../../../components/Setups/RecStats";
 
 const Storm3 = () => {
   return (
     <>
       <Header />
-      <DeckSetup
-        title="Storm 3"
-        mainSrc="Storm3/main-deck.png"
-        itemSrc="Storm3/item-deck.png"
-        sideSrc="Storm3/side-deck.png"
-        main="Cleanse Charm,  Storm Scion, Energy Transfer, Storm Owl, Elemental Blade"
-        item="Storm Trap, Storm Blade"
-        side="Lightning Bats x2, Curse x2"
-        cantrip="Donate Power 3 (Ixta), Restoring Rain 1 (Hunhau)"
-      />
       <DeckSetup
         title="Storm 3 GOATLING"
         mainSrc="Storm3/goat-main-deck.png"
@@ -27,10 +16,6 @@ const Storm3 = () => {
         item="Threefold Fever"
         side="Empower"
         cantrip="Donate Power 3 (Ixta), Restoring Rain 1 (Hunhau)"
-      />
-      <RecStats
-        title="Storm 3"
-        stats="207% Storm Damage, 59% Storm Pierce, 35% Storm Accuracy, 100% Pip Chance"
       />
       <PetReqs
         title="Storm 3"
