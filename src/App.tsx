@@ -70,7 +70,14 @@ import Storm3Fishing from "./pages/classes/Storm3/Fishing";
 import Storm3Ixta from "./pages/classes/Storm3/Ixta";
 import Storm3Hunhau from "./pages/classes/Storm3/Hunhau";
 
-import Storm4 from "./pages/classes/Storm4/Storm4";
+import Storm4 from "./pages/classes/Storm4/Home";
+import Storm4Drums from "./pages/classes/Storm4/Drums";
+import Storm4NorthTokenFight1 from "./pages/classes/Storm4/NorthTokenFight";
+import Storm4WestSkullFight1 from "./pages/classes/Storm4/WestSkullFight1";
+import Storm4Stupefy from "./pages/classes/Storm4/Stupefy";
+import Storm4Puzzles from "./pages/classes/Storm4/Puzzles";
+import Storm4Autloc from "./pages/classes/Storm4/Autloc";
+import Storm4Hunhau from "./pages/classes/Storm4/Hunhau";
 
 import SupportPuller from "./pages/classes/SupportPuller/Home";
 import SupportPullerDrums from "./pages/classes/SupportPuller/Drums";
@@ -176,6 +183,19 @@ function App() {
         <Route path="/storm3/hunhau" element={<Storm3Hunhau />} />
         {/* STORM 4 */}
         <Route path="/storm4" element={<Storm4 />} />
+        <Route path="/storm4/drums" element={<Storm4Drums />} />
+        <Route
+          path="/storm4/northtokenfight"
+          element={<Storm4NorthTokenFight1 />}
+        />
+        <Route
+          path="/storm4/westskullfight1"
+          element={<Storm4WestSkullFight1 />}
+        />
+        <Route path="/storm4/stupefy" element={<Storm4Stupefy />} />
+        <Route path="/storm4/puzzles" element={<Storm4Puzzles />} />
+        <Route path="/storm4/autloc" element={<Storm4Autloc />} />
+        <Route path="/storm4/hunhau" element={<Storm4Hunhau />} />
         {/* SUPPORT/PULLER */}
         <Route path="/supportpuller" element={<SupportPuller />} />
         <Route path="/supportpuller/drums" element={<SupportPullerDrums />} />
