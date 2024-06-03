@@ -1,5 +1,6 @@
 import Header from "../../../components/Header";
 import Navigation from "../../../components/Navigation";
+import PetReqs from "../../../components/Setups/PetRequirements";
 import DeckSetup from "../../../components/Setups/DeckSetup";
 
 const Myth2 = () => {
@@ -15,6 +16,11 @@ const Myth2 = () => {
         item="Pet Myth Fuel or Mass Myth Trap"
         side="Empower, Cleanse Charm x2, Spirit Shield x2"
         cantrip="Donate Power 2 (Cameca), Restoring Rain 1 (Hunhau)"
+      />
+      <PetReqs
+        title="Myth 2"
+        stats="Torrence's Rage"
+        imgSrc="/Storm3/pet-talent.png"
       />
       <Navigation prev="/" next="/myth2/northtokenfight" />
     </>
