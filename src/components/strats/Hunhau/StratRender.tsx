@@ -1,5 +1,4 @@
 import Body from "../../Text/Body";
-import Subtitle from "../../Text/Subtitle";
 
 import HunhauStrat1 from "./Strat1";
 

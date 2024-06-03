@@ -5,7 +5,9 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 
 function createData(mythjade: string, myth2: string) {
   return { mythjade, myth2 };
@@ -21,22 +23,9 @@ const rows = [
 const MythStrat = () => {
   return (
     <>
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Myth Stupefy Strat
-      </Typography>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Minion School(s)
-      </Typography>
+      <br />
+      <Title text="Myth Stupefy Strat" />
+      <Body text="Minion School(s)" />
       <div
         style={{
           display: "flex",
@@ -52,21 +41,8 @@ const MythStrat = () => {
         {"    "}
         <img src="/NotLife.png" alt="NotLife" height="45px" />
       </div>
-      <Typography
-        variant="body1"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        *Ice/Life mob = IMPOSSIBLE*
-      </Typography>
+      <br />
+      <Subtitle text="*Ice/Life mob = IMPOSSIBLE*" />
       <div
         style={{
           display: "flex",

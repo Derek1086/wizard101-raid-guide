@@ -5,7 +5,9 @@ import TableContainer from "@mui/material/TableContainer";
 import TableHead from "@mui/material/TableHead";
 import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
+import Body from "../../Text/Body";
+import Subtitle from "../../Text/Subtitle";
 
 function createData(supportpuller: string, storm4: string) {
   return { supportpuller, storm4 };
@@ -19,22 +21,9 @@ const rows = [
 const StormStrat = () => {
   return (
     <>
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Storm Stupefy Strat
-      </Typography>
-      <Typography
-        variant="h6"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        Minion School(s)
-      </Typography>
+      <br />
+      <Title text="Storm Stupefy Strat" />
+      <Body text="Minion School(s)" />
       <div
         style={{
           display: "flex",
@@ -50,21 +39,8 @@ const StormStrat = () => {
         {"    "}
         <img src="/Life-school.gif" alt="Life" height="45px" />
       </div>
-      <Typography
-        variant="body1"
-        component="div"
-        color="text.secondary"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-        }}
-      >
-        *Ice/Life mob = IMPOSSIBLE*
-      </Typography>
+      <br />
+      <Subtitle text="*Ice/Life mob = IMPOSSIBLE*" />
       <div
         style={{
           display: "flex",

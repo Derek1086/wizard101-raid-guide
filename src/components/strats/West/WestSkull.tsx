@@ -2,20 +2,13 @@ import WestSkull1 from "./WestSkull1";
 import WestSkull2 from "./WestSkull2";
 import WestSkull1Myth from "./WestSkull1Myth";
 import Header from "../../Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
 
 const WestSkull = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        West Skull 1
-      </Typography>
+      <Title text="West Skull 1" />
       <div
         style={{
           display: "flex",
@@ -29,15 +22,7 @@ const WestSkull = () => {
           <WestSkull1 />
         </div>
       </div>
-
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        West Skull 1 (Myth Team)
-      </Typography>
+      <Title text="West Skull 1 (Myth Team)" />
       <div
         style={{
           display: "flex",
@@ -51,14 +36,7 @@ const WestSkull = () => {
           <WestSkull1Myth />
         </div>
       </div>
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        West Skull 2
-      </Typography>
+      <Title text="West Skull 2" />
       <div
         style={{
           display: "flex",

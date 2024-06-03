@@ -128,7 +128,7 @@ const Home = () => {
       </Box>
       <Title text="Roshambo" />
       <div>
-        <CustomImage imgSrc="/roshambo.png" alt="" height="200px" />
+        <CustomImage imgSrc="/roshambo.png" alt="" height="150px" />
         <Title text="Buffs" />
         <div
           style={{

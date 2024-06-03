@@ -1,20 +1,13 @@
 import NorthLeft from "./NorthLeft";
 import NorthRight from "./NorthRight";
 import Header from "../../Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../Text/Title";
 
 const NorthTokens = () => {
   return (
     <>
       <Header />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        North Left Token 1
-      </Typography>
+      <Title text="North Left Token 1" />
       <div
         style={{
           display: "flex",
@@ -29,14 +22,7 @@ const NorthTokens = () => {
         </div>
       </div>
 
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{ flexGrow: 1, marginTop: 2 }}
-      >
-        North Right Token 2
-      </Typography>
+      <Title text="North Left Token 2" />
       <div
         style={{
           display: "flex",
