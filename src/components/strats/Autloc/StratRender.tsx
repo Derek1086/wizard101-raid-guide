@@ -65,7 +65,7 @@ const StratRenderer = () => {
               {"   "}
               OR
               {"    "}
-              <img src="/Ice-school.gif" alt="Ice" height="25px" />
+              <img src="/Ice-School.gif" alt="Ice" height="25px" />
             </MenuItem>
             <MenuItem value={"Strat 3"} sx={{ display: "flex", gap: "10px" }}>
               <img src="/NotDeath.png" alt="NotDeath" height="25px" />
@@ -81,7 +81,7 @@ const StratRenderer = () => {
               {"   "}
               OR
               {"    "}
-              <img src="/Ice-school.gif" alt="Ice" height="25px" />
+              <img src="/Ice-School.gif" alt="Ice" height="25px" />
               {"    "}
               ONI STRAT
             </MenuItem>
