@@ -6,18 +6,18 @@ import CustomImage from "../../../components/CustomImage";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 import StratRenderer from "../../../components/strats/Ixta/StratRender";
 
-const Storm1Ixta = () => {
+const StormJadeIxta = () => {
   return (
     <>
       <Header />
       <Title text="Ixta Boss Fight" />
       <CustomImage imgSrc="/Ixta/map.png" alt="" height="200px" />
-      <Body text="Only join after the Storm Jade joins and after casting Donate Power 2 or Donate Power 1 depending on the strat" />
+      <Body text="Pull minion first" />
       <StratRenderer />
       <SouthPuzzle />
-      <Navigation prev="/storm1/fishing" next="/storm1/autloc" />
+      <Navigation prev="/stormjade/fishing" next="/stormjade/autloc" />
     </>
   );
 };
 
-export default Storm1Ixta;
+export default StormJadeIxta;

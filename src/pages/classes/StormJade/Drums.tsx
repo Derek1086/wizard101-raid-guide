@@ -5,16 +5,16 @@ import Navigation from "../../../components/Navigation";
 import EastPuzzle from "../../../components/Puzzles/EastPuzzle";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 
-const Storm2Drums = () => {
+const StormJadeDrums = () => {
   return (
     <>
       <Header />
       <EastPuzzle />
-      <Navigation prev="/storm2" next="/storm2/fishing" />
+      <Navigation prev="/stormjade" next="/stormjade/fishing" />
       <Title text="Raining East?" />
       <SouthPuzzle />
     </>
   );
 };
 
-export default Storm2Drums;
+export default StormJadeDrums;

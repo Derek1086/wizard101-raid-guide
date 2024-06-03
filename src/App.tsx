@@ -33,16 +33,22 @@ import Fire2Yetaxa from "./pages/classes/Fire2/Yetaxa";
 import Fire2Hunhau from "./pages/classes/Fire2/Hunhau";
 
 import MythJade from "./pages/classes/MythJade/Home";
-import NorthTokenFight from "./pages/classes/MythJade/NorthTokenFight";
+import NorthTokenFight2 from "./pages/classes/MythJade/NorthTokenFight";
 import MythJadeSpecialCases from "./pages/classes/MythJade/SpecialCases";
 import MythJadeStupefy from "./pages/classes/MythJade/Stupefy";
 import MythJadePuzzles from "./pages/classes/MythJade/Puzzles";
 import MythJadeCameca from "./pages/classes/MythJade/Cameca";
 import MythJadeHunhau from "./pages/classes/MythJade/Hunhau";
 
-import Myth1 from "./pages/classes/Myth1/Myth1";
+import Myth1 from "./pages/classes/Myth1/Home";
 import Myth2 from "./pages/classes/Myth2/Myth2";
-import StormJade from "./pages/classes/StormJade/StormJade";
+
+import StormJade from "./pages/classes/StormJade/Home";
+import StormJadeDrums from "./pages/classes/StormJade/Drums";
+import StormJadeFishing from "./pages/classes/StormJade/Fishing";
+import StormJadeIxta from "./pages/classes/StormJade/Ixta";
+import StormJadeAutloc from "./pages/classes/StormJade/Autloc";
+import StormJadePulling from "./pages/classes/StormJade/NorthPulling";
 
 import Storm1 from "./pages/classes/Storm1/Home";
 import Storm1Drums from "./pages/classes/Storm1/Drums";
@@ -65,7 +71,14 @@ import Storm3Ixta from "./pages/classes/Storm3/Ixta";
 import Storm3Hunhau from "./pages/classes/Storm3/Hunhau";
 
 import Storm4 from "./pages/classes/Storm4/Storm4";
-import SupportPuller from "./pages/classes/SupportPuller/SupportPuller";
+
+import SupportPuller from "./pages/classes/SupportPuller/Home";
+import SupportPullerDrums from "./pages/classes/SupportPuller/Drums";
+import NorthTokenFight1 from "./pages/classes/SupportPuller/NorthTokenFight";
+import WestSkullFight1 from "./pages/classes/SupportPuller/WestSkullFight1";
+import SupportPullerStupefy from "./pages/classes/SupportPuller/Stupefy";
+import SupportPullerPuzzles from "./pages/classes/SupportPuller/Puzzles";
+import SupportPullerPulling from "./pages/classes/SupportPuller/EastPulling";
 
 const darkTheme = createTheme({
   palette: {
@@ -119,7 +132,10 @@ function App() {
         <Route path="/fire2/hunhau" element={<Fire2Hunhau />} />
         {/* MYTH JADE */}
         <Route path="/mythjade" element={<MythJade />} />
-        <Route path="/mythjade/northtokenfight" element={<NorthTokenFight />} />
+        <Route
+          path="/mythjade/northtokenfight"
+          element={<NorthTokenFight2 />}
+        />
         <Route
           path="/mythjade/specialcases"
           element={<MythJadeSpecialCases />}
@@ -131,7 +147,13 @@ function App() {
 
         <Route path="/myth1" element={<Myth1 />} />
         <Route path="/myth2" element={<Myth2 />} />
+        {/* STORM JADE */}
         <Route path="/stormjade" element={<StormJade />} />
+        <Route path="/stormjade/drums" element={<StormJadeDrums />} />
+        <Route path="/stormjade/fishing" element={<StormJadeFishing />} />
+        <Route path="/stormjade/ixta" element={<StormJadeIxta />} />
+        <Route path="/stormjade/autloc" element={<StormJadeAutloc />} />
+        <Route path="/stormjade/northpulling" element={<StormJadePulling />} />
         {/* STORM 1 */}
         <Route path="/storm1" element={<Storm1 />} />
         <Route path="/storm1/drums" element={<Storm1Drums />} />
@@ -154,7 +176,29 @@ function App() {
         <Route path="/storm3/hunhau" element={<Storm3Hunhau />} />
         {/* STORM 4 */}
         <Route path="/storm4" element={<Storm4 />} />
+        {/* SUPPORT/PULLER */}
         <Route path="/supportpuller" element={<SupportPuller />} />
+        <Route path="/supportpuller/drums" element={<SupportPullerDrums />} />
+        <Route
+          path="/supportpuller/northtokenfight"
+          element={<NorthTokenFight1 />}
+        />
+        <Route
+          path="/supportpuller/westskullfight1"
+          element={<WestSkullFight1 />}
+        />
+        <Route
+          path="/supportpuller/stupefy"
+          element={<SupportPullerStupefy />}
+        />
+        <Route
+          path="/supportpuller/puzzles"
+          element={<SupportPullerPuzzles />}
+        />
+        <Route
+          path="/supportpuller/eastpulling"
+          element={<SupportPullerPulling />}
+        />
       </Routes>
     </ThemeProvider>
   );

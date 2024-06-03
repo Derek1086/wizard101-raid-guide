@@ -11,7 +11,7 @@ const Fire2WestSkullFight2 = () => {
   return (
     <>
       <Header />
-      <Title text="West Skull Fight 2" />
+      <Title text="West Skull 2 Fight" />
       <Body text="Head West to Skull 2 Fight with the Fire Jade" />
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"

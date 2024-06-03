@@ -1,5 +1,5 @@
 import Header from "../../../components/Header";
-import Typography from "@mui/material/Typography";
+import Title from "../../../components/Text/Title";
 import Navigation from "../../../components/Navigation";
 
 import EastPuzzle from "../../../components/Puzzles/EastPuzzle";
@@ -11,20 +11,7 @@ const Fire2Drums = () => {
       <Header />
       <EastPuzzle />
       <Navigation prev="/fire2" next="/fire2/fishing" />
-      <Typography
-        variant="h5"
-        component="div"
-        align="center"
-        sx={{
-          width: "100%",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          paddingTop: "20px",
-        }}
-      >
-        Raining East?
-      </Typography>
+      <Title text="Raining East?" />
       <SouthPuzzle />
     </>
   );

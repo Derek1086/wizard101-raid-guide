@@ -3,12 +3,12 @@ import Title from "../../../components/Text/Title";
 import Navigation from "../../../components/Navigation";
 import DeckSetup from "../../../components/Setups/DeckSetup";
 
-const Storm1 = () => {
+const Myth1 = () => {
   return (
     <>
       <Header />
       <DeckSetup
-        title="Storm 1 GOATLING"
+        title="Myth 1"
         mainSrc="Storm1/goat-main-deck.png"
         itemSrc="Storm1/goat-item-deck.png"
         sideSrc="Storm1/goat-side-deck.png"
@@ -19,14 +19,14 @@ const Storm1 = () => {
       />
       <Navigation prev="/" next="/storm1/drums" />
       <a
-        href="https://www.twitch.tv/videos/2118249660"
+        href="https://www.twitch.tv/videos/2155969405"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Title text="Storm 1 POV" />
+        <Title text="Myth 1 POV" />
       </a>
     </>
   );
 };
 
-export default Storm1;
+export default Myth1;

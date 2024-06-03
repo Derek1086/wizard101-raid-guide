@@ -10,7 +10,6 @@ const NorthPuzzle = () => {
       <CustomImage imgSrc="/SouthPuzzle/token.png" alt="" height="60px" />
       <Body text="Pet Token Locations" />
       <CustomImage imgSrc="/NorthPuzzle/map.png" alt="" height="250px" />
-      <Body text="Head to Right Token 2 fight" />
       <CustomImage imgSrc="/NorthPuzzle/tokens.png" alt="" height="250px" />
     </>
   );

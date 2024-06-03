@@ -7,11 +7,12 @@ import MythJadeFishing from "./Fishing";
 import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 
-const NorthTokenFight = () => {
+const NorthTokenFight2 = () => {
   return (
     <>
       <Header />
       <NorthPuzzle />
+      <Body text="Head to Right Token 2 fight" />
       <div
         style={{
           display: "flex",
@@ -34,4 +35,4 @@ const NorthTokenFight = () => {
   );
 };
 
-export default NorthTokenFight;
+export default NorthTokenFight2;

@@ -11,7 +11,7 @@ const Fire1WestSkullFight2 = () => {
   return (
     <>
       <Header />
-      <Title text="West Skull Fight 2" />
+      <Title text="West Skull 2 Fight" />
       <Body
         text="Head West to Skull 2 Fight, try to fish for 4 Death fish until fire Jade
         and Fire 2 arrives"
