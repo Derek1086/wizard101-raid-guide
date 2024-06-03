@@ -33,11 +33,11 @@ const StormStrat = () => {
           paddingTop: "10px",
         }}
       >
-        <img src="/Fire-school.gif" alt="Fire" height="45px" />
+        <img src="/Fire-School.gif" alt="Fire" height="45px" />
         {"   "}
         OR
         {"    "}
-        <img src="/Life-school.gif" alt="Life" height="45px" />
+        <img src="/Life-School.gif" alt="Life" height="45px" />
       </div>
       <br />
       <Subtitle text="*Ice/Life mob = IMPOSSIBLE*" />
