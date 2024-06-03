@@ -56,7 +56,7 @@ const Ixta = () => {
             paddingTop: "10px",
           }}
         >
-          <img src="/Death-school.gif" alt="Death" height="45px" />
+          <img src="/Death-School.gif" alt="Death" height="45px" />
         </div>
         <Body text="Cantrips" />
         <Subtitle text="Stupefy Round 1" />
