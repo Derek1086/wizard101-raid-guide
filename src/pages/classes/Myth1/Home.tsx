@@ -18,13 +18,24 @@ const Myth1 = () => {
         cantrip="Dual Strike 3 (Hunhau)"
       />
       <Navigation prev="/" next="/myth1/northtokenfight" />
-      <a
-        href="https://www.twitch.tv/videos/2155969405"
-        target="_blank"
-        rel="noopener noreferrer"
+      <Title text="Fyth 1 POV" />
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          padding: "20px",
+        }}
       >
-        <Title text="Myth 1 POV" />
-      </a>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/r7e2RkoXrhw?si=UYsXPeuzC5kpyICZ"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        />
+      </div>
     </>
   );
 };
