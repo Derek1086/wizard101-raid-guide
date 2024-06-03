@@ -1,16 +1,15 @@
 import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import StormStrat from "../../../components/strats/Stupefy/Storm";
+import MythStrat from "../../../components/strats/Stupefy/Myth";
 import CustomImage from "../../../components/CustomImage";
 import Navigation from "../../../components/Navigation";
 
-const Storm4Stupefy = () => {
+const Myth2Stupefy = () => {
   return (
     <>
       <Header />
       <Title text="Stupefy Fight" />
-      <Body text="*IF MYTH TEAM CANT DO STUPEFY*" />
       <Body text="Head to the corresponding Stupfy Mob. West (Left) or East (Right)" />
       <div
         style={{
@@ -28,11 +27,11 @@ const Storm4Stupefy = () => {
         />
         <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="200px" />
       </div>
-      <Body text="Join after Support/Puller" />
-      <StormStrat />
-      <Navigation prev="/storm4/westskullfight1" next="/storm4/puzzles" />
+      <Body text="Join after Myth Jade" />
+      <MythStrat />
+      <Navigation prev="/myth2/specialcases" next="/myth2/puzzles" />
     </>
   );
 };
 
-export default Storm4Stupefy;
+export default Myth2Stupefy;

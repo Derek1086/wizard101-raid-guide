@@ -9,13 +9,13 @@ const Myth1 = () => {
       <Header />
       <DeckSetup
         title="Myth 1"
-        mainSrc="Storm1/goat-main-deck.png"
-        itemSrc="Storm1/goat-item-deck.png"
-        sideSrc="Storm1/goat-side-deck.png"
+        mainSrc="Myth1/main-deck.png"
+        itemSrc="Myth1/item-deck.png"
+        sideSrc="Myth1/side-deck.png"
         main="Cleanse Charm, Turmoil Oni, Storm Trap, Elemental Blade"
         item="Star Blade, Threefold Fever x2"
-        side="Curse/Hex, Lightning Bats x3, Elemental Blade"
-        cantrip="Donate Power 1 (Ixta), Donate Power 2 (Ixta), Restoring Rain 1 (Autloc), Dual Strike 2 (Autloc)"
+        side="None"
+        cantrip="Dual Strike 3 (Hunhau)"
       />
       <Navigation prev="/" next="/storm1/drums" />
       <a

@@ -6,19 +6,19 @@ import Navigation from "../../../components/Navigation";
 import FightPov from "../../../components/strats/Hunhau/FightPov";
 import StratRenderer from "../../../components/strats/Hunhau/StratRender";
 
-const Storm3Hunhau = () => {
+const Myth2Hunhau = () => {
   return (
     <>
       <Header />
       <Title text="Hunhau Boss Fight" />
-      <CustomImage imgSrc="/Ixta/ixta-profile.png" alt="" height="200px" />
-      <Body text="Press X on the shrine in the middle to polymorph into Ixta. You will gain full health and mana" />
-      <Body text="Wait for the Yetaxa Polymorph and work together to defeat the mobs at the top of the pyramid" />
+      <CustomImage imgSrc="/Cameca/cameca-profile.png" alt="" height="200px" />
+      <Body text="Press X on the shrine in the middle to polymorph into Cameca. You will gain full health and mana" />
+      <Body text="Help defeat remaining mobs at the top of the pyramid" />
       <br />
-      <Body text="Stand on the East drum at the top of the pyramid" />
-      <CustomImage imgSrc="/Ixta/drum.png" alt="" height="200px" />
+      <Body text="Stand on the South drum at the top of the pyramid" />
+      <CustomImage imgSrc="/Cameca/drum.png" alt="" height="200px" />
       <Body text="Once Hunhau spawns, let Autloc polymorph pull him" />
-      <Body text="Cast Restoring Rain 1 AFTER Myth Jade, Fire 2, and Myth 2 cast their cantrips" />
+      <Body text="Cast Restoring Rain 1 AFTER Myth Jade and Fire 2 cast their cantrips" />
       <StratRenderer />
       <Navigation prev="/storm3/ixta" next="/" />
       <FightPov />
@@ -26,4 +26,4 @@ const Storm3Hunhau = () => {
   );
 };
 
-export default Storm3Hunhau;
+export default Myth2Hunhau;
