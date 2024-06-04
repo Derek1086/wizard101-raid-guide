@@ -16,12 +16,12 @@ const Stupefy = () => {
           padding: "20px",
         }}
       >
-        <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="250px" />
         <CustomImage
           imgSrc="/WestPuzzle/westskullfight.png"
           alt=""
           height="250px"
         />
+        <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="250px" />
       </div>
       <MythStrat />
       <StormStrat />
