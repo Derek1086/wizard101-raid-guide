@@ -1,18 +1,14 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 
 const SupportPullerPulling = () => {
   return (
     <>
-      <Header />
       <Title text="East Pulling" />
       <Body text="Head to the East end of the pyramid" />
       <CustomImage
-        imgSrc="/supportpuller/eastpulling.png"
+        imgSrc="/SupportPuller/eastpulling.png"
         alt=""
         height="250px"
       />
@@ -30,7 +26,7 @@ const SupportPullerPulling = () => {
         <CustomImage imgSrc="/Ixta/jaguar.png" alt="" height="150px" />
       </div>
       <Body text="Pull the mob when it gets close and stall as long as possible" />
-      <Navigation prev="/supportpuller/puzzles" next="/" />
+      <br />
     </>
   );
 };

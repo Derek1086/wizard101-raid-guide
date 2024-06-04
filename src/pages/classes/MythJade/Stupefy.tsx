@@ -1,14 +1,11 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
 import MythStrat from "../../../components/strats/Stupefy/Myth";
 import CustomImage from "../../../components/CustomImage";
-import Navigation from "../../../components/Navigation";
 
 const MythJadeStupefy = () => {
   return (
     <>
-      <Header />
       <Title text="Stupefy Fight" />
       <Body text="Head to the corresponding Stupfy Mob. West (Left) or East (Right)" />
       <div
@@ -32,7 +29,6 @@ const MythJadeStupefy = () => {
       <Body text="When you see the Cyclops appear in the leaves of the Myth Scion spell call out to Fire Jade 'Pull Now'" />
       <CustomImage imgSrc="/MythJade/stupefy.png" alt="" height="150px" />
       <MythStrat />
-      <Navigation prev="/mythjade/specialcases" next="/mythjade/puzzles" />
     </>
   );
 };

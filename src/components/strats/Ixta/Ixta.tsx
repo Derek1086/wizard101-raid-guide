@@ -12,7 +12,7 @@ import IxtaGoatStrat2 from "./GoatStrat2";
 const Ixta = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <div style={{ marginTop: "20px" }}>
         <Title text="Ixta Strat 1" />
         <Body text="Minion School(s)" />

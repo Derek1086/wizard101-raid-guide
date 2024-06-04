@@ -12,7 +12,7 @@ import CustomImage from "../components/CustomImage";
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <Box
         sx={{
           width: "100%",

@@ -1,23 +1,27 @@
 import Header from "../../../components/Header";
-import Navigation from "../../../components/Navigation";
-
-import DeckSetup from "../../../components/Setups/DeckSetup";
+import BasicTabs from "../../../components/Navigation/Tabs";
+import Stats from "./Stats";
+import Storm2Drums from "./Drums";
+import Storm2Fishing from "./Fishing";
+import Storm2Ixta from "./Ixta";
+import Storm2Autloc from "./Autloc";
+import Storm2Hunhau from "./Hunhau";
 
 const Storm2 = () => {
   return (
     <>
-      <Header />
-      <DeckSetup
-        title="Storm 2 GOATLING"
-        mainSrc="Storm2/goat-main-deck.png"
-        itemSrc="Storm2/goat-item-deck.png"
-        sideSrc="Storm2/goat-side-deck.png"
-        main="Turmoil Oni, Storm Blade x2, Elemental Blade, Elemental Trap"
-        item="Threefold Fever x2"
-        side="Cleanse Charm x2, Lightning Bats x2, Storm Trap x2"
-        cantrip="Dual Strike 1 (Autloc), Dual Strike 2 (Hunhau)"
+      <Header role="Storm 2" />
+      <BasicTabs
+        totalTabs={["Stats", "Drums", "Fishing", "Ixta", "Autloc", "Hunhau"]}
+        content={[
+          <Stats />,
+          <Storm2Drums />,
+          <Storm2Fishing />,
+          <Storm2Ixta />,
+          <Storm2Autloc />,
+          <Storm2Hunhau />,
+        ]}
       />
-      <Navigation prev="/" next="/storm2/drums" />
     </>
   );
 };

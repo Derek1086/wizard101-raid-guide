@@ -11,7 +11,7 @@ import AutlocOniStrat2 from "./OniStrat2";
 const Autloc = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <div style={{ marginTop: "20px" }}>
         <Title text="Autloc  Strat 1" />
         <Body text="Minion School(s)" />

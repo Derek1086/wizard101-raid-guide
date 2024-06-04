@@ -1,8 +1,5 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 import WestSkull2 from "../../../components/strats/West/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
@@ -10,7 +7,6 @@ import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 const Fire2WestSkullFight2 = () => {
   return (
     <>
-      <Header />
       <Title text="West Skull 2 Fight" />
       <Body text="Head West to Skull 2 Fight with the Fire Jade" />
       <CustomImage
@@ -30,7 +26,6 @@ const Fire2WestSkullFight2 = () => {
         Jade and Fire 1 to collect the rest of the 4 Death fish if needed"
       />
       <CustomImage imgSrc="/WestPuzzle/deathpond.png" alt="" height="150px" />
-      <Navigation prev="/fire2/fishing" next="/fire2/yetaxa" />
       <Title text="Raining West?" />
       <SouthPuzzle />
     </>

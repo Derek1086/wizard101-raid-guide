@@ -1,8 +1,5 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 import WestSkull2 from "../../../components/strats/West/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
@@ -10,7 +7,6 @@ import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 const Fire1WestSkullFight2 = () => {
   return (
     <>
-      <Header />
       <Title text="West Skull 2 Fight" />
       <Body
         text="Head West to Skull 2 Fight, try to fish for 4 Death fish until fire Jade
@@ -39,7 +35,6 @@ const Fire1WestSkullFight2 = () => {
       />
       <WestSkull2 />
       <Body text="Go to the death pond and work with Fire Jade and Fire 2 to collect the rest of the 4 Death fish if needed" />
-      <Navigation prev="/fire1/drums" next="/fire1/yetaxa" />
       <Title text="Raining West?" />
       <SouthPuzzle />
     </>

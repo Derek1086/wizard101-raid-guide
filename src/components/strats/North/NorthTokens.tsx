@@ -7,7 +7,7 @@ import CustomImage from "../../CustomImage";
 const NorthTokens = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <CustomImage imgSrc="/NorthPuzzle/tokens.png" alt="" height="300px" />
       <Title text="North Left Token 1" />
       <NorthLeft />

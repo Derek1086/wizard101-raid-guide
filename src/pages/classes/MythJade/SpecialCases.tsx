@@ -1,16 +1,13 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
 import MythJadeFishing from "./Fishing";
 import WestSkull1Myth from "../../../components/strats/West/WestSkull1Myth";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 import CustomImage from "../../../components/CustomImage";
-import Navigation from "../../../components/Navigation";
 
 const MythJadeSpecialCases = () => {
   return (
     <>
-      <Header />
       <MythJadeFishing />
       <Body text="On the way to Myth Pond in West, check for Stupefy West Mob's school (IF SCHOOL IS LIFE OR FIRE MYTH TEAM CANNOT DO STUPEFY)" />
       <CustomImage
@@ -23,7 +20,6 @@ const MythJadeSpecialCases = () => {
       <br />
       <Body text="Pull mob and follow strat (same as Stupefy)" />
       <WestSkull1Myth />
-      <Navigation prev="/mythjade/northtokenfight" next="/mythjade/stupefy" />
       <Title text="Raining West?" />
       <SouthPuzzle />
     </>

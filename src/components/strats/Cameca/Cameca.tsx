@@ -11,7 +11,7 @@ import CamecaStrat4 from "./Strat4";
 const Cameca = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <div style={{ marginTop: "20px" }}>
         <Title text="Cameca Strat 1" />
         <Body text="Minion School(s)" />

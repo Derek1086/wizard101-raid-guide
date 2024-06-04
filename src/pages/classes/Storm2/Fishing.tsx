@@ -1,14 +1,10 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 
 const Storm2Fishing = () => {
   return (
     <>
-      <Header />
       <Title text="Fishing" />
       <Body text="Fish for 1 Storm Fish while waiting for the mob to pass by the Ixta fight, " />
       <Body
@@ -16,7 +12,6 @@ const Storm2Fishing = () => {
         North and both West Fish n' Wisps"
       />
       <CustomImage imgSrc="/Storm2/fishing.png" alt="" height="200px" />
-      <Navigation prev="/storm2/drums" next="/storm2/ixta" />
     </>
   );
 };

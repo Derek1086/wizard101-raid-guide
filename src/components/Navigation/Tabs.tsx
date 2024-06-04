@@ -1,7 +1,6 @@
 import * as React from "react";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
-import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
 interface TabPanelProps {
@@ -21,11 +20,7 @@ function CustomTabPanel(props: TabPanelProps) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {value === index && (
-        <Box sx={{ p: 3 }}>
-          <Typography>{children}</Typography>
-        </Box>
-      )}
+      {value === index && <>{children}</>}
     </div>
   );
 }
@@ -38,10 +33,11 @@ function a11yProps(index: number) {
 }
 
 type ClassProps = {
-  children: any;
+  totalTabs: string[];
+  content: any[];
 };
 
-const BasicTabs: React.FC<ClassProps> = ({ children }) => {
+const BasicTabs: React.FC<ClassProps> = ({ totalTabs, content }) => {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -49,31 +45,36 @@ const BasicTabs: React.FC<ClassProps> = ({ children }) => {
   };
 
   return (
-    <Box sx={{ width: "100%" }}>
-      <Box
-        sx={{
-          borderBottom: 1,
-          borderColor: "divider",
-          display: "flex",
-          justifyContent: "center",
-          mt: 2,
-        }}
-      >
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          aria-label="basic tabs example"
-          centered // This property centers the tabs
+    <>
+      <Box sx={{ width: "100%" }}>
+        <Box
+          sx={{
+            borderBottom: 1,
+            borderColor: "divider",
+            display: "flex",
+            justifyContent: "center",
+            mt: 2,
+          }}
         >
-          <Tab label="Stats" {...a11yProps(0)} />
-          <Tab label="fishing" {...a11yProps(1)} />
-          <Tab label="West Skull 2" {...a11yProps(2)} />
-          <Tab label="Yetaxa" {...a11yProps(3)} />
-          <Tab label="South Pulling" {...a11yProps(4)} />
-        </Tabs>
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            aria-label="tabs"
+            centered
+            textColor="inherit"
+          >
+            {totalTabs.map((tab: string, index: number) => (
+              <Tab key={tab} label={tab} {...a11yProps(index)} />
+            ))}
+          </Tabs>
+        </Box>
       </Box>
-      {children}
-    </Box>
+      {content.map((item: any, index: number) => (
+        <CustomTabPanel value={value} index={index}>
+          {item}
+        </CustomTabPanel>
+      ))}
+    </>
   );
 };
 

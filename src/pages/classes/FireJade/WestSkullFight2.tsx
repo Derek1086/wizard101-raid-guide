@@ -1,8 +1,5 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 import WestSkull2 from "../../../components/strats/West/WestSkull2";
 import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
@@ -10,7 +7,6 @@ import SouthPuzzle from "../../../components/Puzzles/SouthPuzzle";
 const FireJadeWestSkullFight2 = () => {
   return (
     <>
-      <Header />
       <Title text="West Skull 2 Fight" />
       <Body text="Head West to Skull 2 Fight" />
       <CustomImage
@@ -24,19 +20,7 @@ const FireJadeWestSkullFight2 = () => {
         height="200px"
       />
       <Body text="Pull Sky Screecher and follow strat below" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull2 />
-        </div>
-      </div>
+      <WestSkull2 />
       <Body text="After defeating Sky Screecher, collect the Crytal Skull and deposit it in the collector" />
 
       <div
@@ -55,7 +39,6 @@ const FireJadeWestSkullFight2 = () => {
           height="100px"
         />
       </div>
-      <Navigation prev="/firejade/fishing" next="/firejade/yetaxa" />
       <Title text="Raining West?" />
       <SouthPuzzle />
     </>

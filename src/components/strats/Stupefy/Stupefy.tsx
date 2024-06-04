@@ -6,7 +6,7 @@ import CustomImage from "../../CustomImage";
 const Stupefy = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <div
         style={{
           width: "100%",

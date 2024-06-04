@@ -1,14 +1,11 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
 import StormStrat from "../../../components/strats/Stupefy/Storm";
 import CustomImage from "../../../components/CustomImage";
-import Navigation from "../../../components/Navigation";
 
 const SupportPullerStupefy = () => {
   return (
     <>
-      <Header />
       <Title text="Stupefy Fight" />
       <Body text="*IF MYTH TEAM CANT DO STUPEFY*" />
       <Body text="Head to the corresponding Stupfy Mob. West (Left) or East (Right)" />
@@ -33,10 +30,6 @@ const SupportPullerStupefy = () => {
       <Body text="After all buffs have been used and the Storm Scion begins spinning, call out to Fire Jade 'Pull Now'" />
       <CustomImage imgSrc="/SupportPuller/stupefy.png" alt="" height="150px" />
       <StormStrat />
-      <Navigation
-        prev="/supportpuller/westskullfight1"
-        next="/supportpuller/puzzles"
-      />
     </>
   );
 };

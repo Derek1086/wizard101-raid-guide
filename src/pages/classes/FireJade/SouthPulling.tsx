@@ -1,14 +1,10 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
-
 import CustomImage from "../../../components/CustomImage";
 
 const SouthPulling = () => {
   return (
     <>
-      <Header />
       <Title text="South Pulling" />
       <Body text="Get health from North Fish n' Wisps after defeating Yetaxa" />
       <Body text="Head to the South Fish n' Wisps and deposit the rest of the fish" />
@@ -30,7 +26,7 @@ const SouthPulling = () => {
       </div>
       <Body text="Pull the mob when it gets close and stall as long as possible" />
       <Body text="If Myth Jade cant cover you when you get to low health, try to coordinate with someone who doesnt have a Hunhau cantrip to cover you" />
-      <Navigation prev="/firejade/yetaxa" next="/" />
+      <br />
     </>
   );
 };

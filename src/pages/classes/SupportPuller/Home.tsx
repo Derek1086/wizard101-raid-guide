@@ -1,22 +1,37 @@
 import Header from "../../../components/Header";
-import Navigation from "../../../components/Navigation";
-import DeckSetup from "../../../components/Setups/DeckSetup";
+import BasicTabs from "../../../components/Navigation/Tabs";
+import Stats from "./Stats";
+import SupportPullerDrums from "./Drums";
+import NorthTokenFight1 from "./NorthTokenFight";
+import WestSkullFight1 from "./WestSkullFight1";
+import SupportPullerStupefy from "./Stupefy";
+import SupportPullerPuzzles from "./Puzzles";
+import SupportPullerPulling from "./EastPulling";
 
 const SupportPuller = () => {
   return (
     <>
-      <Header />
-      <DeckSetup
-        title="Support/Puller"
-        mainSrc="SupportPuller/main-deck.png"
-        itemSrc="SupportPuller/item-deck.png"
-        sideSrc="SupportPuller/side-deck.png"
-        main="Fairy x2, Sanctuary, Elemental Blade x2"
-        item="Storm Blade, Wand Hit"
-        side="Fairy x16"
-        cantrip="None"
+      <Header role="Support/Puller" />
+      <BasicTabs
+        totalTabs={[
+          "Stats",
+          "Drums",
+          "North Token Fight",
+          "West Skull Fight",
+          "Stupefy",
+          "Puzzles",
+          "East Pulling",
+        ]}
+        content={[
+          <Stats />,
+          <SupportPullerDrums />,
+          <NorthTokenFight1 />,
+          <WestSkullFight1 />,
+          <SupportPullerStupefy />,
+          <SupportPullerPuzzles />,
+          <SupportPullerPulling />,
+        ]}
       />
-      <Navigation prev="/" next="/supportpuller/drums" />
     </>
   );
 };

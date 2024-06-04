@@ -1,14 +1,11 @@
-import Header from "../../../components/Header";
 import Title from "../../../components/Text/Title";
 import Body from "../../../components/Text/Body";
-import Navigation from "../../../components/Navigation";
 import CustomImage from "../../../components/CustomImage";
 import StratRenderer from "../../../components/strats/Yetaxa/StratRenderer";
 
 const FireJadeYetaxa = () => {
   return (
     <>
-      <Header />
       <Title text="Yetaxa Boss Fight" />
       <Body text="Head North and coordinate with Fire 1 and Fire 2 to deposit all Death fish in North, South, and both West Fish n' Wisps" />
       <CustomImage imgSrc="/Yetaxa/fishnwisps.png" alt="" height="200px" />
@@ -31,10 +28,6 @@ const FireJadeYetaxa = () => {
       <Body text="If Coatl, let it pass to the top of pyramid before starting Yetaxa" />
       <Body text="When Stupefy team calls to pull, pull the minion first" />
       <StratRenderer />
-      <Navigation
-        prev="/firejade/westskullfight2"
-        next="/firejade/southpulling"
-      />
     </>
   );
 };

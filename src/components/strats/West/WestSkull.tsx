@@ -8,7 +8,7 @@ import CustomImage from "../../CustomImage";
 const WestSkull = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <CustomImage
         imgSrc="/WestPuzzle/westskullfight.png"
         alt=""

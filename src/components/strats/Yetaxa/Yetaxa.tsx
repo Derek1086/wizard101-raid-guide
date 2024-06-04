@@ -11,7 +11,7 @@ import YetaxaStrat4 from "./Strat4";
 const Yetaxa = () => {
   return (
     <>
-      <Header />
+      <Header role="" />
       <div style={{ marginTop: "20px" }}>
         <Title text="Yetaxa Strat 1" />
         <Body text="Minion School(s)" />
