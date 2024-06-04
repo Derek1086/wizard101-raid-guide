@@ -10,8 +10,10 @@ const NorthTokens = () => {
       <Header role="" />
       <CustomImage imgSrc="/NorthPuzzle/tokens.png" alt="" height="300px" />
       <Title text="North Left Token 1" />
+      <br />
       <NorthLeft />
-      <Title text="North Left Token 2" />
+      <Title text="North Right Token 2" />
+      <br />
       <NorthRight />
     </>
   );

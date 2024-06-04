@@ -15,10 +15,13 @@ const WestSkull = () => {
         height="300px"
       />
       <Title text="West Skull 1" />
+      <br />
       <WestSkull1 />
       <Title text="West Skull 1 (Myth Team)" />
+      <br />
       <WestSkull1Myth />
       <Title text="West Skull 2" />
+      <br />
       <WestSkull2 />
     </>
   );
