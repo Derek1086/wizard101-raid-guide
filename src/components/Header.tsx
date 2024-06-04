@@ -63,6 +63,16 @@ function getIcon(role: string) {
       return "/Life-School.gif";
     case "Storm Jade":
       return "/Balance-School.gif";
+    case "Yetaxa":
+      return "/Yetaxa/Yetaxa.png";
+    case "Cameca":
+      return "/Cameca/Cameca.png";
+    case "Ixta":
+      return "/Ixta/Ixta.png";
+    case "Autloc":
+      return "/Autloc/Autloc.png";
+    case "Hunhau":
+      return "/Hunhau/Hunhau.png";
     default:
       return "";
   }
@@ -102,7 +112,7 @@ const Header: React.FC<ClassProps> = ({ role }) => {
             gap: "10px",
           }}
         >
-          <img height="30px" src={getIcon(role)} alt="" />
+          <img height="45px" src={getIcon(role)} alt="" />
           <Typography
             variant="h5"
             component="div"
@@ -117,7 +127,7 @@ const Header: React.FC<ClassProps> = ({ role }) => {
           >
             {role}
           </Typography>
-          <img height="30px" src={getIcon(role)} alt="" />
+          <img height="45px" src={getIcon(role)} alt="" />
         </div>
       </div>
     </>

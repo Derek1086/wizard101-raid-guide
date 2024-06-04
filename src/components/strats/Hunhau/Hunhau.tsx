@@ -8,7 +8,7 @@ import HunhauStrat1 from "./Strat1";
 const Hunhau = () => {
   return (
     <>
-      <Header role="" />
+      <Header role="Hunhau" />
       <div style={{ marginTop: "20px" }}>
         <Title text="Hunhau Main Strat" />
         <Body text="Cantrips (MUST BE SENT IN ORDER)" />
