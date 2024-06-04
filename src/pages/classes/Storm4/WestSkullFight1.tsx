@@ -16,19 +16,7 @@ const Storm4WestSkullFight1 = () => {
         height="200px"
       />
       <Body text="Join after Support/Puller and follow strat" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull1 />
-        </div>
-      </div>
+      <WestSkull1 />
       <Navigation prev="/storm4/northtokenfight" next="/storm4/stupefy" />
     </>
   );

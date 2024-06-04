@@ -22,19 +22,7 @@ const MythJadeSpecialCases = () => {
       <Body text="If Storm team is doing Stupefy do the West Skull 1 fight whenever Myth 2 is ready (Leave skull on the ground for Storm Team to pick up)" />
       <br />
       <Body text="Pull mob and follow strat (same as Stupefy)" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull1Myth />
-        </div>
-      </div>
+      <WestSkull1Myth />
       <Navigation prev="/mythjade/northtokenfight" next="/mythjade/stupefy" />
       <Title text="Raining West?" />
       <SouthPuzzle />

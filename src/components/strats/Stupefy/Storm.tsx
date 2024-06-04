@@ -8,6 +8,7 @@ import Paper from "@mui/material/Paper";
 import Title from "../../Text/Title";
 import Body from "../../Text/Body";
 import Subtitle from "../../Text/Subtitle";
+import Condenser from "../../Condenser";
 
 function createData(supportpuller: string, storm4: string) {
   return { supportpuller, storm4 };
@@ -41,16 +42,8 @@ const StormStrat = () => {
       </div>
       <br />
       <Subtitle text="*Ice/Life mob = IMPOSSIBLE*" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
+      <Condenser
+        children={
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 650 }} aria-label="simple table">
               <TableHead>
@@ -107,8 +100,9 @@ const StormStrat = () => {
               </TableBody>
             </Table>
           </TableContainer>
-        </div>
-      </div>
+        }
+        width="70%"
+      />
     </>
   );
 };

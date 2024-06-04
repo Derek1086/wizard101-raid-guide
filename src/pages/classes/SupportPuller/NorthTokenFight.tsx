@@ -15,19 +15,7 @@ const NorthTokenFight1 = () => {
       <Body text="Wait for Storm to change" />
       <Body text="Head to Left Token 1 fight" />
       <Body text="Pull mob and follow strat" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <NorthLeft />
-        </div>
-      </div>
+      <NorthLeft />
       <Navigation
         prev="/supportpuller/drums"
         next="/supportpuller/westskullfight1"
@@ -40,19 +28,7 @@ const NorthTokenFight1 = () => {
         height="200px"
       />
       <Body text="Pull mob and follow strat" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull1 />
-        </div>
-      </div>
+      <WestSkull1 />
     </>
   );
 };

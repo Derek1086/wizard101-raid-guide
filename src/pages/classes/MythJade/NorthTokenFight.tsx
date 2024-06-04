@@ -13,19 +13,7 @@ const NorthTokenFight2 = () => {
       <Header />
       <NorthPuzzle />
       <Body text="Head to Right Token 2 fight" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <NorthRight />
-        </div>
-      </div>
+      <NorthRight />
       <Body text="Watch in chat for call of Stupefy East Mob's school by drums team (IF SCHOOL IS LIFE OR FIRE MYTH TEAM CANNOT DO STUPEFY)" />
       <CustomImage imgSrc="/EastPuzzle/stupefy.png" alt="" height="200px" />
       <Navigation prev="/mythjade" next="/mythjade/specialcases" />

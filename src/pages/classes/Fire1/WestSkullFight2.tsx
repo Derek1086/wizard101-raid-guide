@@ -37,19 +37,7 @@ const Fire1WestSkullFight2 = () => {
         alt=""
         height="200px"
       />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull2 />
-        </div>
-      </div>
+      <WestSkull2 />
       <Body text="Go to the death pond and work with Fire Jade and Fire 2 to collect the rest of the 4 Death fish if needed" />
       <Navigation prev="/fire1/drums" next="/fire1/yetaxa" />
       <Title text="Raining West?" />

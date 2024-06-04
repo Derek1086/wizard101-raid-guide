@@ -13,19 +13,7 @@ const Myth2NorthTokenFight2 = () => {
       <NorthPuzzle />
       <Body text="Head to Right Token 2 fight" />
       <Body text="Join after Myth 1" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <NorthRight />
-        </div>
-      </div>
+      <NorthRight />
       <Navigation prev="/myth2" next="/myth2/specialcases" />
       <Title text="Raining North?" />
       <Myth2Fishing />

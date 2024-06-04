@@ -16,19 +16,7 @@ const WestSkullFight1 = () => {
         height="200px"
       />
       <Body text="Pull mob and follow strat" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull1 />
-        </div>
-      </div>
+      <WestSkull1 />
       <Navigation
         prev="/supportpuller/northtokenfight"
         next="/supportpuller/stupefy"

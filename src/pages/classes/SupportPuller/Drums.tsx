@@ -16,19 +16,7 @@ const SupportPullerDrums = () => {
       <Title text="Token Fight" />
       <CustomImage imgSrc="/NorthPuzzle/tokens.png" alt="" height="250px" />
       <Body text="Head to Left Token 1 fight" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "20px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <NorthLeft />
-        </div>
-      </div>
+      <NorthLeft />
     </>
   );
 };

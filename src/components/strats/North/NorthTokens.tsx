@@ -10,34 +10,9 @@ const NorthTokens = () => {
       <Header />
       <CustomImage imgSrc="/NorthPuzzle/tokens.png" alt="" height="300px" />
       <Title text="North Left Token 1" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <NorthLeft />
-        </div>
-      </div>
-
+      <NorthLeft />
       <Title text="North Left Token 2" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <NorthRight />
-        </div>
-      </div>
+      <NorthRight />
     </>
   );
 };

@@ -24,19 +24,7 @@ const Fire2WestSkullFight2 = () => {
         height="200px"
       />
       <Body text="Join after Fire Jade pulls Sky Screecher" />
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          padding: "10px",
-          width: "100%",
-        }}
-      >
-        <div style={{ width: "70%" }}>
-          <WestSkull2 />
-        </div>
-      </div>
+      <WestSkull2 />
       <Body
         text="After defeating Sky Screecher, work with Fire
         Jade and Fire 1 to collect the rest of the 4 Death fish if needed"
