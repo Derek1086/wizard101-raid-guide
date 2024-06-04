@@ -21,7 +21,7 @@ const Home = () => {
           flexWrap: "wrap",
           justifyContent: "center",
           alignItems: "center",
-          padding: "20px",
+          padding: "0px 20px 20px 20px",
         }}
       >
         <Box
