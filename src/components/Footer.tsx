@@ -23,6 +23,8 @@ const Footer = () => {
             Weakness Ixta - Prismma
             <br />
             Viridian CS Variant - Euxjoy
+            <br />
+            Website -Kalani
           </Typography>
         </Toolbar>
       </AppBar>

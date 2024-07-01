@@ -38,7 +38,7 @@ const rows = [
     "TC Spirit Blade (Myth 1)/TC Shatter (Minion)",
     "TC Immolate (Minion)",
     "TC Immolate (Minion)",
-    "Myth Jinn (Self)"
+    "Myth Jinn (Minion)"
   ),
 ];
 const YetaxaStrat4 = () => {
