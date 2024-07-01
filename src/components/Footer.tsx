@@ -24,7 +24,7 @@ const Footer = () => {
             <br />
             Viridian CS Variant - Euxjoy
             <br />
-            Website -Kalani
+            Website - Kalani
           </Typography>
         </Toolbar>
       </AppBar>
